@@ -1,0 +1,26 @@
+{template "wap","header"}
+{php $SITEINFO = siteinfo(1);$sitename = $SITEINFO['name'];$SITEINFO = string2array($SITEINFO['infos']);}
+<header class="aui-bar aui-bar-nav">
+	<a class="aui-pull-left aui-btn">
+		<span class="aui-iconfont aui-icon-left"></span>
+	</a>
+	<div class="aui-title">联系我们</div>
+	<a href="/" class="goindex">首页</a>
+	<a href="search.html" class="gosearch"><img src="images/ico-search.png" alt=""></a>
+</header>
+<section class="inner-contactus">
+	<div class="innerBox">
+    	<div class="innerCon">
+            <div class="titBox">
+                <p>王亚林刑事辩护网</p>
+            </div>
+            <div class="cuCon">
+                <p>咨询热线：{$SITEINFO['tel']}</p>
+                <p>电子邮箱：314409254@qq.com</p>
+                <p>联系地址：{$SITEINFO['area']}</p>
+            </div>
+            <div class="inner-contactus-dh"><input type="button" name="" value="一键导航" class="ask-ssubmit"></p>
+        </div>
+    </div>
+</section>
+{template "wap","footer"}

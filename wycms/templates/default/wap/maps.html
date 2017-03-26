@@ -1,0 +1,196 @@
+{template "wap","header"}
+{if $catid == "68"}
+	<header class="aui-bar aui-bar-nav">
+		<a class="aui-pull-left aui-btn">
+			<span class="aui-iconfont aui-icon-left"></span>
+		</a>
+		<div class="aui-title">官方荣誉</div>
+		<a href="/" class="goindex">首页</a>
+		<a href="搜索.html" class="gosearch"><img src="{IMG_PATH}wap/ico-search.png" alt=""></a>
+	</header>
+	<section class="inner-box">
+		<div class="inner-box-top clearfix">
+			<div class="aui-col-xs-2">
+				<a href="/show_64_199.html">
+					<i class="aui-iconfont ico-about1"></i>
+					<div class="aui-grid-label">金亚太简介</div>
+				</a>
+			</div>
+			<div class="aui-col-xs-2 active">
+				<a href="/category_68.html">
+					<i class="aui-iconfont ico-about2"></i>
+					<div class="aui-grid-label">官方荣誉</div>
+				</a>
+			</div>
+			<div class="aui-col-xs-2">
+				<a href="/show_64_214.html">
+					<i class="aui-iconfont ico-about3"></i>
+					<div class="aui-grid-label">团队介绍</div>
+				</a>
+			</div>
+			<div class="aui-col-xs-2">
+				<a href="/show_64_215.html">
+					<i class="aui-iconfont ico-about4"></i>
+					<div class="aui-grid-label">办公环境</div>
+				</a>
+			</div>
+			<div class="aui-col-xs-2">
+				<a href="/show_64_213.html">
+					<i class="aui-iconfont ico-about5"></i>
+					<div class="aui-grid-label">组织架构</div>
+				</a>
+			</div>
+		</div>
+	</section>
+	<div class="inner-aboutbox-ry">
+		<ul class="clearfix">
+			{wy:content action="lists" catid="68"  num="4" return="artList"}
+			{loop $artList $al}
+			<ul>
+				<li><a href="show_{$al[catid]}_{$al[id]}.html"><img src="{$al['thumb']}"  alt="{$al['title']}"> {$al['title']}</a></li>
+			</ul>
+			{/loop}
+			{/wy}
+		</ul>
+		<div class="ix-daoshi-btm">
+			<a href="/lists_68.html">查看更多  <i class="aui-iconfont ico-gogo"></i></a>
+		</div>
+	</div>
+{elseif $catid == "149"}
+	<header class="aui-bar aui-bar-nav">
+		<a class="aui-pull-left aui-btn">
+			<span class="aui-iconfont aui-icon-left"></span>
+		</a>
+		<div class="aui-title">刑事下午茶</div>
+		<a href="/" class="goindex">首页</a>
+		<a href="搜索.html" class="gosearch"><img src="images/ico-search.png" alt=""></a>
+	</header>
+	<section class="inner-box">
+		<div class="inner-box-top clearfix">
+			<div class="aui-col-xs-3 active">
+				<a href="#inner-xingshi1">
+					<i class="aui-iconfont ico-xingshi1"></i>
+					<div class="aui-grid-label">刑事法律</div>
+				</a>
+			</div>
+			<div class="aui-col-xs-3">
+				<a href="#inner-xingshi2">
+					<i class="aui-iconfont ico-xingshi2"></i>
+					<div class="aui-grid-label">司法解释</div>
+				</a>
+			</div>
+			<div class="aui-col-xs-3">
+				<a href="#inner-xingshi3">
+					<i class="aui-iconfont ico-xingshi3"></i>
+					<div class="aui-grid-label">部门规章</div>
+				</a>
+			</div>
+			<div class="aui-col-xs-3">
+				<a href="#inner-xingshi4">
+					<i class="aui-iconfont ico-xingshi4"></i>
+					<div class="aui-grid-label">安徽规定</div>
+				</a>
+			</div>
+		</div>
+	</section>
+	
+	<section class="ixbox inner-casebox" id="inner-xingshi1">
+		<div class="ixbox-top">
+			<h3 class="rel lan fw-b f18"><em class="abs"></em>刑事法律<a href="/lists_143.html" class="abs">更多 <i class="aui-iconfont ico-gogo"></i></a></h3>
+		</div>
+		<div class="ixbox-con">
+			{wy:content action="lists" catid="143" num=1 order="inputtime desc" return="data"}
+			{loop $data $v}
+			<div class="inner-case-top">
+				<a href="/show_143_{$v[id]}.html"><h3 class="aui-ellipsis-1 f18 fw-b">{str_cut($v[title],50,'...')}</h3>
+				<p class="aui-ellipsis-2">{str_cut($v[description],200,'...')}</p></a>
+			</div>
+			{/loop}
+			{/wy}
+			<div class="ix-list">
+				<ul>					
+					{wy:content action="lists" catid="143" num=3 start="1" order="inputtime desc" return="data"}
+					{loop $data $v}
+						<li><a href="/show_143_{$v[id]}.html" class="rel"><em class="abs"></em>{str_cut($v[title],50,'...')}</a></li>
+					{/loop}
+					{/wy}
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="ixbox inner-casebox" id="inner-xingshi2">
+		<div class="ixbox-top">
+			<h3 class="rel lan fw-b f18"><em class="abs"></em>司法解释<a href="/lists_144.html" class="abs">更多 <i class="aui-iconfont ico-gogo"></i></a></h3>
+		</div>
+		<div class="ixbox-con">
+			{wy:content action="lists" catid="144" num=1 order="inputtime desc" return="data"}
+			{loop $data $v}
+			<div class="inner-case-top">
+				<a href="/show_144_{$v[id]}.html"><h3 class="aui-ellipsis-1 f18 fw-b">{str_cut($v[title],50,'...')}</h3>
+				<p class="aui-ellipsis-2">{str_cut($v[description],200,'...')}</p></a>
+			</div>
+			{/loop}
+			{/wy}
+			<div class="ix-list">
+				<ul>					
+					{wy:content action="lists" catid="144" num=3 start="1" order="inputtime desc" return="data"}
+					{loop $data $v}
+						<li><a href="/show_144_{$v[id]}.html" class="rel"><em class="abs"></em>{str_cut($v[title],50,'...')}</a></li>
+					{/loop}
+					{/wy}
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="ixbox inner-casebox" id="inner-xingshi3">
+		<div class="ixbox-top">
+			<h3 class="rel lan fw-b f18"><em class="abs"></em>部门规章<a href="/lists_145.html" class="abs">更多 <i class="aui-iconfont ico-gogo"></i></a></h3>
+		</div>
+		<div class="ixbox-con">
+			{wy:content action="lists" catid="145" num=1 order="inputtime desc" return="data"}
+			{loop $data $v}
+			<div class="inner-case-top">
+				<a href="/show_145_{$v[id]}"><h3 class="aui-ellipsis-1 f18 fw-b">{str_cut($v[title],50,'...')}</h3>
+				<p class="aui-ellipsis-2">{str_cut($v[description],200,'...')}</p></a>
+			</div>
+			{/loop}
+			{/wy}
+			<div class="ix-list">
+				<ul>					
+					{wy:content action="lists" catid="145" num=3 start="1" order="inputtime desc" return="data"}
+					{loop $data $v}
+						<li><a href="/show_145_{$v[id]}.html" class="rel"><em class="abs"></em>{str_cut($v[title],50,'...')}</a></li>
+					{/loop}
+					{/wy}
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="ixbox inner-casebox" id="inner-xingshi4">
+		<div class="ixbox-top">
+			<h3 class="rel lan fw-b f18"><em class="abs"></em>地方规定<a href="/lists_146.html" class="abs">更多 <i class="aui-iconfont ico-gogo"></i></a></h3>
+		</div>
+		<div class="ixbox-con">
+			{wy:content action="lists" catid="146" num=1 order="inputtime desc" return="data"}
+			{loop $data $v}
+			<div class="inner-case-top">
+				<a href="/show_146_{$v[id]}.html"><h3 class="aui-ellipsis-1 f18 fw-b">{str_cut($v[title],50,'...')}</h3>
+				<p class="aui-ellipsis-2">{str_cut($v[description],200,'...')}</p></a>
+			</div>
+			{/loop}
+			{/wy}
+			<div class="ix-list">
+				<ul>					
+					{wy:content action="lists" catid="146" num=3 start="1" order="inputtime desc" return="data"}
+					{loop $data $v}
+						<li><a href="/show_146_{$v[id]}.html" class="rel"><em class="abs"></em>{str_cut($v[title],50,'...')}</a></li>
+					{/loop}
+					{/wy}
+				</ul>
+			</div>
+		</div>
+	</section>
+{elseif $catid == ""}
+	
+{/if}
+{template "wap","footer"}

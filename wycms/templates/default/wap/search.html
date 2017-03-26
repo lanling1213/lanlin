@@ -1,0 +1,108 @@
+{template "wap","header"}
+<header class="aui-bar aui-bar-nav">
+	<a class="aui-pull-left aui-btn">
+		<span class="aui-iconfont aui-icon-left"></span>
+	</a>
+	<div class="aui-title">搜索</div>
+	<a href="/" class="goindex">首页</a>
+	<a href="search.html" class="gosearch"><img src="{IMG_PATH}wap/ico-search.png" alt=""></a>
+</header>
+<section class="inner-searchbox">
+	 <div class="aui-searchbar" id="search">
+        <div class="aui-searchbar-input aui-border-radius">
+            <i class="aui-iconfont aui-icon-search"></i>
+			<form action="/index.php?m=wap&c=index&a=search" method="post" name="search_news" id="search_news">
+				<input type="search" placeholder="请输入搜索内容" name="keyword"  id="search-input">
+			</form>
+            <div class="aui-searchbar-clear-btn">
+                <i class="aui-iconfont aui-icon-close"></i>
+            </div>
+        </div>
+        <div class="aui-searchbar-btn" tapmode>取消</div>
+    </div>
+	<div class="height20"></div>
+	<div class="ix-list">
+		<ul id="news18">
+			{loop $search_detail $detail}
+				<li><a href="show_{$detail['catid']}_{$detail['id']}.html" class="rel"><em class="abs"></em>{$detail['title']}</a></li>	
+			{/loop}		
+		</ul>
+		<div class="ix-daoshi-btm">
+			<a href="javascript:void(0);" id="more18" keyword="{$keyword}" class="nMore">查看更多  <i class="aui-iconfont ico-gogo"></i></a>
+		</div> 
+	</div>
+</section>
+<script type="text/javascript">
+	var p18 = 2;
+	var end1 = 10;
+	var times18 = 10;
+	var num18 = 5;
+	var start = 5;
+	$("#more18").click(function() {
+		if (p18 > times18) {
+			$("#more18").html("更多精彩内容切换到电脑版浏览");
+			$("#more18").attr("href", "{$CATEGORYS[$catid][url]}");
+			return;
+		}
+		var keyword = $('#more18').attr('keyword');
+		$.post("/index.php?m=wap&c=index&a=ajaxSearchList", {end:end1,keyword:keyword,start:start}, function(data) {
+			end1 = end1 +5;
+			p18 = p18 + 1;
+			start = start +5;
+			eval("var datas=" + data);
+			var str = "";
+			for (var i = 0; i < datas.length; i++) {
+
+				var title = datas[i].title.substring(0, 30) + "...";
+				str += ' <li><a href="/show_' + datas[i].catid + '_' + datas[i].id + '.html" class="rel"><em class="abs"></em>' + datas[i].title + '</a></li>';
+			}
+			$("#news18").append(str);
+			if (datas.length < num18) {
+				$("#more18").css("display", "none");
+			}
+		});
+	});
+</script>
+<script type="text/javascript">
+    apiready = function(){
+        api.parseTapmode();
+    }
+    var searchBar = document.querySelector(".aui-searchbar");
+    var searchBarInput = document.querySelector(".aui-searchbar input");
+    var searchBarBtn = document.querySelector(".aui-searchbar .aui-searchbar-btn");
+    var searchBarClearBtn = document.querySelector(".aui-searchbar .aui-searchbar-clear-btn");
+    if(searchBar){
+        searchBarInput.onclick = function(){
+            searchBarBtn.style.marginRight = 0;
+        }
+        searchBarInput.oninput = function(){
+            if(this.value.length){
+                searchBarClearBtn.style.display = 'block';
+                searchBarBtn.classList.add("aui-text-info");
+                searchBarBtn.textContent = "搜索";
+            }else{
+                searchBarClearBtn.style.display = 'none';
+                searchBarBtn.classList.remove("aui-text-info");
+                searchBarBtn.textContent = "取消";
+            }
+        }
+    }
+    searchBarClearBtn.onclick = function(){
+        this.style.display = 'none';
+        searchBarInput.value = '';
+        searchBarBtn.classList.remove("aui-text-info");
+        searchBarBtn.textContent = "取消";
+    }
+    searchBarBtn.onclick = function(){
+        var keywords = searchBarInput.value;
+        if(keywords.length){
+            searchBarInput.blur();
+            document.getElementById("search-keywords").textContent = keywords;
+        }else{
+            this.style.marginRight = "-"+this.offsetWidth+"px";
+            searchBarInput.value = '';
+            searchBarInput.blur();
+        }
+    }
+</script>
+{template "wap","footer"}

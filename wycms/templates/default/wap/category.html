@@ -1,0 +1,196 @@
+{template "wap","header"}
+
+<header class="aui-bar aui-bar-nav">
+	<a class="aui-pull-left aui-btn">
+		<span class="aui-iconfont aui-icon-left"></span>
+	</a>
+	<div class="aui-title">
+	{if $catid != '63'}{$CATEGORYS[$catid][catname]}{else}专业团队{/if}</div>
+	<a href="/" class="goindex">首页</a>
+	<a href="search.html" class="gosearch"><img src="{IMG_PATH}wap/ico-search.png" alt=""></a>
+</header>
+
+
+{if $catid=="74"}
+	<!-- 亲办案例 -->
+	<section class="inner-box">
+		<div class="inner-box-top clearfix">
+			{wy:content action="category" catid="$catid" return="data"}
+			{php $j=1}
+			{loop $data $r}
+			<div class="aui-col-xs-2 {if $j==1} active{/if}">
+				<a href="#inner-case{$j}">
+					<i class="aui-iconfont ico-case{$j}"></i>
+					<div class="aui-grid-label">{$r[catname]}</div>
+				</a>
+			</div>
+			{$j++}
+			{/loop}
+			{/wy}
+		</div>
+	</section>
+	{php $i =1}
+	{wy:content action="category" catid="$catid" return="data"}
+	{loop $data $r}
+	<section class="ixbox inner-casebox" id="inner-case{$i}">
+		<div class="ixbox-top">
+			<h3 class="rel lan fw-b f18"><em class="abs"></em>{$r[catname]}<a href="/lists_{$r[catid]}.html" class="abs">更多 <i class="aui-iconfont ico-gogo"></i></a></h3>
+		</div>
+		<div class="ixbox-con">
+			<div class="inner-case-top">
+				{wy:content action="lists" catid="$r[catid]" num="1" order="inputtime desc" return="res"}
+				{loop $res $v}
+				<a href="/show_{$v[catid]}_{$v[id]}.html"><h3 class="aui-ellipsis-1 f18 fw-b">{str_cut($v[title],60,'...')}</h3>
+				<p class="aui-ellipsis-2">{str_cut($v[description],200,'...')}</p></a>
+				{/loop}
+				{/wy}
+				<!-- "{$r[catid]}" -->
+			</div>
+			<div class="ix-list">
+				<ul>
+					{wy:content action="lists" catid="$r[catid]" num="3" start="1" order="inputtime desc" return="data"}
+					{loop $data $v}
+					<li><a href="/show_{$v[catid]}_{$v[id]}.html" class="rel"><em class="abs"></em>{str_cut($v[title],60,'...')}</a></li>
+					{/loop}
+					{/wy}
+				</ul>
+			</div>
+		</div>
+	</section>
+	{$i++}
+	{/loop}
+	{/wy}
+{elseif $catid=='82' }
+	<!-- 刑事知识 -->
+	{php $catid=array(85,139,83,88)}
+	<section class="inner-box">
+		<div class="inner-box-top clearfix">
+			{php $j=1}
+			{loop $catid $r}
+			<div class="aui-col-xs-3">
+				<a href="#inner-zhishi{$j}">
+					<i class="aui-iconfont ico-zhishi{$j}"></i>
+					<div class="aui-grid-label">{$CATEGORYS[$r][catname]}</div>
+				</a>
+			</div>
+			{$j++}
+			{/loop}
+		</div>
+	</section>
+	{php $i=1}
+	{loop $catid $r}
+	<section class="ixbox inner-casebox" id="inner-zhishi{$i}">
+		<div class="ixbox-top">
+			<h3 class="rel lan fw-b f18"><em class="abs"></em>{$CATEGORYS[$r][catname]}<a href="/lists_{$r}.html" class="abs">更多 <i class="aui-iconfont ico-gogo"></i></a></h3>
+		</div>
+		<div class="ixbox-con">
+			<div class="inner-case-top">
+				{wy:content action="lists" catid="$r" num="1" order="inputtime desc" return="res"}
+				{loop $res $v}
+				<a href="/show_{$v[catid]}_{$v[id]}.html"><h3 class="aui-ellipsis-1 f18 fw-b">{str_cut($v[title],60,'...')}</h3>
+				<p class="aui-ellipsis-2">{str_cut($v[description],200,'...')}</p></a>
+				{/loop}
+				{/wy}
+			</div>
+			<div class="ix-list">
+				<ul>
+					{wy:content action="lists" catid="$r" num="3" start="1" order="inputtime desc" return="data"}
+					{loop $data $v}
+					<li><a href="/show_{$v[catid]}_{$v[id]}.html" class="rel"><em class="abs"></em>{str_cut($v[title],60,'...')}</a></li>
+					{/loop}
+					{/wy}
+				</ul>
+			</div>
+		</div>
+	</section>	
+	{$i++}
+	{/loop}
+{elseif $catid=='63'}
+	<section class="inner-box">
+		<div class="inner-box-top clearfix">
+			<div class="aui-col-xs-3 active">
+				<a href="/">
+					<i class="aui-iconfont ico-team1"></i>
+					<div class="aui-grid-label">首页</div>
+				</a>
+			</div>
+			<div class="aui-col-xs-3">
+				<a href="#inner-teambox1">
+					<i class="aui-iconfont ico-team2"></i>
+					<div class="aui-grid-label">团队导师</div>
+				</a>
+			</div>
+			<div class="aui-col-xs-3">
+				<a href="#inner-teambox2">
+					<i class="aui-iconfont ico-team3"></i>
+					<div class="aui-grid-label">首席律师</div>
+				</a>
+			</div>
+			<div class="aui-col-xs-3">
+				<a href="#inner-teambox3">
+					<i class="aui-iconfont ico-team4"></i>
+					<div class="aui-grid-label">高级顾问</div>
+				</a>
+			</div>
+		</div>
+	</section>
+	<section class="ixbox" id="inner-teambox1">
+		<div class="ixbox-top">
+			<h3 class="rel lan fw-b f18"><em class="abs"></em>团队导师</h3>
+		</div>
+		<div class="ixbox-con">
+			<div class="ix-daoshi">
+				<div class="ix-daoshi-con">
+					<img src="{IMG_PATH}wap/pic3.jpg" alt="" class="fl" />
+					{wy:get sql="select * from wy_news where id='115'" return="data"}
+					{loop $data $r}
+						<p>{$r[description]}</p>
+					{/loop}
+					{/wy}
+				</div>
+				<div class="ix-daoshi-btm">
+					<a href="/show_67_115.html">查看详细  <i class="aui-iconfont ico-gogo"></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="ixbox" id="inner-teambox2" style="background: #f7f7f7;">
+		<div class="ixbox-top">
+			<h3 class="rel lan fw-b f18"><em class="abs"></em>首席律师</h3>
+		</div>
+		<div class="ixbox-con">
+			<div class="inner-teambox">
+				<ul class="clearfix">
+					{wy:content action="lists" catid="67" num="3" return="data"}
+					{loop $data $v}
+					<li class="aui-col-xs-4"><a href="/show_67_{$v[id]}.html"><img src="{$v[thumb]}" alt="{$v[title]}"><br>{$v[title]}</a></li>
+					{/loop}
+					{/wy}
+				</ul>
+				<div class="ix-daoshi-btm">
+					<a href="/lists_67.html">查看详细  <i class="aui-iconfont ico-gogo"></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="ixbox" id="inner-teambox3">
+		<div class="ixbox-top">
+			<h3 class="rel lan fw-b f18"><em class="abs"></em>高级顾问</h3>
+		</div>
+		<div class="ixbox-con">
+			<div class="inner-teambox">
+				<ul class="clearfix">
+					{wy:content action="lists" catid="70" num="3" return="data"}
+					{loop $data $v}
+					<li class="aui-col-xs-4"><a href="/show_70_{$v[id]}.html"><img src="{$v[thumb]}" alt="{$v[title]}"><br>{$v[title]}</a></li>
+					{/loop}
+					{/wy}
+				</ul>
+				<div class="ix-daoshi-btm">
+					<a href="/lists_70.html">查看详细  <i class="aui-iconfont ico-gogo"></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
+{/if}
+{template "wap","footer"}

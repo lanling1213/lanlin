@@ -1,0 +1,86 @@
+{template "content","header"}
+{template "content","top"}
+<table width="1000" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tr valign="top">
+        <td class="news_list">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="position">
+                <tr>
+                    <td>您当前的位置：<a href="/">首页</a>&nbsp;&gt;&nbsp;{catpos($catid)}</td>
+                </tr>
+            </table>
+            {if $catid == 151}
+            {wy:content action="category" catid="$catid" order="listorder desc,catid desc" num="1000"}
+            <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tbody><tr>
+                    <td height="40" style="border-bottom:1px solid #284358; font-size:18px;">　<strong>重点罪名专题</strong></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="xszt">
+                            <ul>
+                                {loop $data $r}
+                                    {if strstr($r['catname'],'罪')}
+                                        <li><a target="_blank" href="{$r['url']}">{$r['catname']}</a></li>
+                                    {/if}
+                                {/loop}
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                </tbody></table>
+            <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tbody><tr>
+                    <td height="40" style="border-bottom:1px solid #284358; font-size:18px;">　<strong>刑事程序专题</strong></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td><div class="xszt">
+                        <ul>
+                            {loop $data $r}
+                            {if !strstr($r['catname'],'罪')}
+                                <li><a target="_blank" href="{$r['url']}">{$r['catname']}</a></li>
+                            {/if}
+                            {/loop}
+                        </ul>
+                    </div></td>
+                </tr>
+                </tbody></table>
+            {/wy}
+            {else}
+                {wy:content action="category" catid="$catid" order="listorder desc,catid desc" num="200" return="cateList"}
+                {loop $cateList $cl}
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="title">
+                    <tr>
+                        <td><strong>{$cl['catname']}</strong></td>
+                        <td align="right"><a href="{$cl['url']}">更多&gt;&gt;</a></td>
+                    </tr>
+                </table>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="box">
+                    <tr>
+                        <td>
+                            <ul>
+                                {wy:content action="lists" catid="$cl['catid']" order="listorder desc,updatetime desc" num="5" return="artList"}
+                                {loop $artList $al}
+                                <li><a href="{$al['url']}" title="{$al['title']}">{str_cut($al['title'],60,'')}</a> <span>{date('Y-m-d',$al['inputtime'])}</span></li>
+                                {/loop}
+                                {/wy}
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+                {/loop}
+                {/wy}
+            </td>
+            <td width="10">&nbsp;</td>
+                {template "content","list_right"}
+        {/if}
+
+
+    </tr>
+</table>
+{template "content","footer"}

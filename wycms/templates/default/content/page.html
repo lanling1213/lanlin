@@ -1,0 +1,41 @@
+{template "content","header"}
+{template "content","top"}
+<div style="height:8px; line-height:8px; clear:both;"></div>
+<div class="container">
+    <div class="containerTop"></div>
+    <div class="containerContent">
+        <div class="breadcrumb">当前位置：<a href="/">首页</a>&nbsp;&gt;&nbsp;{catpos($catid)}</div>
+        <div class="content">
+            <div class="posts single" id="post-2">
+                <h2>{$title}</h2>
+                <p>&nbsp;</p>
+                {$content}
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <ul class="sub">
+                        {wy:content action="category" catid="$catid" order="listorder
+                        desc,id desc" return="datas"}{/wy}
+                        {if empty($datas)}
+                            {wy:content action="category" catid="$parentid" order="listorder
+                            desc,id desc" return="datas"}{/wy}
+                        {/if}
+                        {loop $datas $d}
+                        <li><a href="{$d['url']}">{$d['catname']}</a></li>
+                            {if $d['child']}
+                                {loop subcat($d['catid']) $r}
+                                <li><a href="{$r['url']}">&nbsp;&nbsp;&nbsp;&nbsp;{$r['catname']}</a></li>
+                                {/loop}
+                            {/if}
+                        {/loop}
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+{template "content","footer"}

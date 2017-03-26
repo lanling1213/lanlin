@@ -1,0 +1,125 @@
+{template "wap","header"}
+
+{if $id== "199" || $id == "214" ||$id =="213" || $id=="215"}
+	<header class="aui-bar aui-bar-nav">
+		<a class="aui-pull-left aui-btn">
+			<span class="aui-iconfont aui-icon-left"></span>
+		</a>
+		<div class="aui-title">{if $id==199}关于金亚太{elseif $id == 214}团队介绍{elseif $id == 213}组织架构{else}办公环境{/if}</div>
+		<a href="/" class="goindex">首页</a>
+		<a href="search.html" class="gosearch"><img src="{IMG_PATH}wap/ico-search.png" alt=""></a>
+	</header>
+	<section class="inner-box">
+		<div class="inner-box-top clearfix">
+			<div class="aui-col-xs-2 {if $id==199} active {/if}">
+				<a href="/show_64_199.html">
+					<i class="aui-iconfont ico-about1"></i>
+					<div class="aui-grid-label">金亚太简介</div>
+				</a>
+			</div>
+			<div class="aui-col-xs-2">
+				<a href="/category_68.html">
+					<i class="aui-iconfont ico-about2"></i>
+					<div class="aui-grid-label">官方荣誉</div>
+				</a>
+			</div>
+			<div class="aui-col-xs-2 {if $id==214} active {/if}">
+				<a href="/show_64_214.html">
+					<i class="aui-iconfont ico-about3"></i>
+					<div class="aui-grid-label">团队介绍</div>
+				</a>
+			</div>
+			<div class="aui-col-xs-2">
+				<a href="/show_64_215.html">
+					<i class="aui-iconfont ico-about4"></i>
+					<div class="aui-grid-label">办公环境</div>
+				</a>
+			</div>
+			<div class="aui-col-xs-2 {if $id==213} active {/if}">
+				<a href="/show_64_213.html">
+					<i class="aui-iconfont ico-about5"></i>
+					<div class="aui-grid-label">组织架构</div>
+				</a>
+			</div>
+		</div>
+	</section>
+	<div class="inner-aboutbox">
+		<h3>{$title}</h3>
+		<div class="inner-aboutbox-con">
+			<p>{$rs[content]}</p>
+		</div>
+		<div class="inner-aboutbox-btm">
+			<a href="ask.html">法律咨询</a>
+		</div>
+	</div>
+{else}
+	<header class="aui-bar aui-bar-nav">
+		<a class="aui-pull-left aui-btn">
+			<span class="aui-iconfont aui-icon-left"></span>
+		</a>
+		<div class="aui-title">{$CATEGORYS[$catid][catname]}</div>
+		<a href="/" class="goindex">首页</a>
+		<a href="search.html" class="gosearch"><img src="{IMG_PATH}wap/ico-search.png" alt=""></a>
+	</header>
+	<section class="inner-articlebox">
+		<div class="article-top">
+			<h1 class="fw tc">{$title}</h1>
+			<p class="tc"><span>来源：{$copyfrom}</span><span>作者：{$username}</span><span>时间：{date('y-m-d',strtotime($inputtime))}</span></p>
+		</div>
+		<div class="article-con in-introduce">
+			<p>{$rs[content]}</p>
+		</div>
+		<div class="inner-article-zan clearfix">
+			<a href="javascript:void(0)" class="inner-article-zanbtn fl zan">赞一下（<span id="diggnum"></span>）</a>
+			<a href="/" class="inner-article-zanback fr">返回首页</a>
+			<script type="text/javascript">
+				$(document).ready(function() {
+					$.get("/index.php?m=content&c=index&a=showClick&id={$id}",{},function(data){
+						if (data.code ==1) {
+							$("#diggnum").html(parseInt(data.data.onclick));
+						}
+					},'json');
+					$(".inner-article-zanbtn").click(function(){
+						$.get("/index.php?m=content&c=index&a=click&catid={$catid}&id={$id}",{},function(data){
+							if (data ==1) {
+								$("#diggnum").html(parseInt($("#diggnum").html())+1);
+							 
+							} else {
+								alert("提交失败");
+							}
+						});
+					})
+				});
+			</script>
+			<!-- <script type="text/javascript">
+			 <!--
+			  $(document).ready(function(e) {
+				$('a.zan').click(function(){
+			  var left = parseInt($(this).offset().left)+10, top =  parseInt($(this).offset().top)-10, obj=$(this);
+			  $(this).append('<div id="zan"><b>+1<\/b></\div>');
+			  $('#zan').css({'position':'absolute','z-index':'1', 'color':'#C30','left':left+'px','top':top+'px'}).animate({top:top-10,left:left+10},'slow',function(){
+			   $(this).fadeIn('fast').remove();
+			   var Num = parseInt(obj.find('span').text());
+			   Num++;
+			obj.find('span').text(Num);
+			  });
+			   
+			   
+			  return false;
+			 });
+			 });
+			 
+			</script> -->
+		</div>
+		<div class="article-conShare">
+			<div class="fl" style="line-height:46px;">分享到：</div>
+			<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
+			<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"32"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+		</div>
+		<div class="article-page">
+			 <a  class="aui-ellipsis-1" href="/show_{$next_page['catid']}_{$next_page['id']}.html">上一篇：{if $next_page[title]=="last_page"}没有了{else}{$next_page[title]}{/if}</a>
+			 <a  class="aui-ellipsis-1" href="/show_{$previous_page['catid']}_{$previous_page['id']}.html">下一篇：{if $previous_page[title]=="first_page"}没有了{else}{$previous_page[title]}{/if}</a>
+		</div>
+	</section>
+{/if}
+{template "wap","footer"}

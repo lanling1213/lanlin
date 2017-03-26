@@ -1,0 +1,112 @@
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="170" background="{IMG_PATH}ahxb/bg_r16_c1.jpg"><table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        {wy:get sql="select catid,catname,url from wy_category where catid in (117,118,119,120) order by listorder asc" return="cate"}
+        {loop $cate $c}
+        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="36"><strong style="font-size:14px;">{$c['catname']}</strong></td>
+          </tr>
+          <tr>
+
+            <td style="line-height:25px;"><div class="bottomli">
+              <ul>
+                {wy:content action="lists" catid="$c['catid']"  order="listorder desc,id desc" num="3" return="list"}
+                {loop $list $l}
+                <li><a href="{$l['url']}" title="{$l['title']}">{$l['title']}</a></li>
+                {/loop}
+                {/wy}
+              </ul>
+            </div>
+            </td>
+          </tr>
+        </table></td>
+        {/loop}
+        {/wy}
+        <td width="250" align="right"><table width="80%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="76"><img name="index_r15_c14" src="{IMG_PATH}ahxb/index_r15_c14.jpg" width="257" height="47" border="0" id="index_r15_c14" alt="" /></td>
+          </tr>
+          <tr>
+            <td style="line-height:22px; padding-left:62px; text-align:left;">&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="135" background="{IMG_PATH}ahxb/bg_r19_c3.jpg"><table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="40" style="color:#FFF;"><a href="/" class="baiselj">网站首页</a> | <a href="/a/1/2014-04-23/199.html" class="baiselj">关于我们</a> | <a style="color:#fff;"  href="javascript:void(0);"  onclick="SetHome(this,'http://www.ahxb.cn');">设为首页</a> | <a target=_top href="javascript:void(0);" onclick="AddFavorite('王亚林刑辩网',location.href)" class="baiselj">加入收藏</a> | <a href="{$CATEGORYS[82][url]}" class="baiselj">常见问题</a> | <a href="/a/1/2014-04-25/212.html" class="baiselj">联系我们</a></td>
+          </tr>
+          <tr>
+            <td style="color:#999; line-height:20px;">版权所有：{$info['copyright']} 地 址：{$info['area']} 邮编：{$info['postcode']}<br />
+              Copyright @ 2014 www.ahxb.cn All Rights Reserved<br />
+              技术支持：金亚太网络部 皖ICP备05002980号 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253371142'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1253371142' type='text/javascript'%3E%3C/script%3E"));</script></td>
+          </tr>
+        </table></td>
+        <td><img name="index_r17_c13" src="{IMG_PATH}ahxb/ddd.jpg" width="10" height="135" border="0" id="index_r17_c" alt="" /></td>
+        <td align="right"><img name="index_r17_c13" src="{IMG_PATH}ahxb/index_r17_c13.jpg" width="237" height="60" border="0" id="index_r17_c13" alt="" /></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"0","bdPos":"left","bdTop":"300"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+<div class="fixed-layer">
+    <ul>
+        <li class="weixin"><a href=""><i class="png"></i>关注我们</a><div class="fixed-layer-pop weixin-tips"><img width="135" height="150" src="{IMG_PATH}ahxb/2wm.jpg"><em></em></div></li>
+        <li class="qq"><a href="http://wpa.qq.com/msgrd?v=3&uin={$info['qq']}&site=qq&menu=yes" target="_blank"><i class="png"></i>QQ咨询</a></li>
+        <li class="online"><a href="/e/tool/gbook/?bid=1" target="_blank"><i class="png"></i>在线咨询</a></li>
+        <li class="tel-ask"><a href=""><i class="png"></i>电话咨询</a><div class="fixed-layer-pop tel-ask-tips">预约咨询电话:<br /><span>{$info['tel']}</span><em></em></div></li>
+        <li class="to-top"><a class="to-top" href="#"  target="_self"><i class="png"></i>Top</a></li>
+    </ul>
+</div>
+<!--[if IE 6]>
+<script type="text/javascript" src="DD_belatedPNG.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+    DD_belatedPNG.fix(".png");
+//]]>
+</script>
+<![endif]-->
+<script  type="text/javascript">
+  //设为首页
+  function SetHome(obj,url){
+    try{
+      obj.style.behavior='url(#default#homepage)';
+      obj.setHomePage(url);
+    }catch(e){
+      if(window.netscape){
+        try{
+          netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+        }catch(e){
+          alert("抱歉，此操作被浏览器拒绝！\n\n请在浏览器地址栏输入“about:config”并回车然后将[signed.applets.codebase_principal_support]设置为'true'");
+        }
+      }else{
+        alert("抱歉，您所使用的浏览器无法完成此操作。\n\n您需要手动将【"+url+"】设置为首页。");
+      }
+    }
+  }
+  //收藏本站
+  function AddFavorite(title, url) {
+    try {
+      window.external.addFavorite(url, title);
+    }
+    catch (e) {
+      try {
+        window.sidebar.addPanel(title, url, "");
+      }
+      catch (e) {
+        alert("抱歉，您所使用的浏览器无法完成此操作。\n\n加入收藏失败，请使用Ctrl+D进行添加");
+      }
+    }
+  }
+</script>
+</body>
+</html>

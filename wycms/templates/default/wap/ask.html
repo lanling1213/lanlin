@@ -1,0 +1,145 @@
+{template "wap","header"}
+<script type="text/javascript" src="{JS_PATH}ahxb/Validform_v5.3.2.js"></script>
+<header class="aui-bar aui-bar-nav">
+	<a class="aui-pull-left aui-btn">
+		<span class="aui-iconfont aui-icon-left"></span>
+	</a>
+	<div class="aui-title">法律咨询</div>
+	<a href="/" class="goindex">首页</a>
+	<a href="search.html" class="gosearch"><img src="{IMG_PATH}wap/ico-search.png" alt=""></a>
+</header>
+<section class="inn-zixun">
+	<div class="ask">
+    	<div class="ask-top">
+        	<h3 class="rel">温馨提示：<em class="ico_deng abs"></em></h3>
+        	<p class="first">1、如果您想得到法律咨询或聘请律师，请提前与我们预约。</p>
+            <p>2、如果您所涉及案情比较紧急，请直接拨打预约咨询电话：<em class="orange fw-b f18">400-0040-148</em></p>
+        </div>
+        <div class="ask-submit">
+			<form action="/index.php?m=ask&c=index&a=ask" method="post" enctype="application/x-www-form-urlencoded" id="myform" onsubmit="if (this.name.value == this.name.defaultValue)
+                                this.name.value = '';
+                            if (this.introduce.value == this.introduce.defaultValue)
+                                this.introduce.value = '';">
+			<input type="hidden" name="typeid" value="1" />
+			<input type="hidden" name="is_ajax" value="1" />
+			{php wy_base::load_sys_class('form', '', 0);}
+        	<p><textarea class="ask-stext" id="introduce" name="content"  placeholder="咨询案件内容："></textarea></p>
+        	<p><input type="text" name="name" id="name"  value="" class="ask-sname" placeholder="姓名：（仅律师可见）"></p>
+            <p><input type="text" name="comment[tel]" id="tel" value="" class="ask-stel" placeholder="手机：（仅律师可见）"></p>
+            <p class="clearfix">
+            	<input type="text"  name="code" id="code"  value="" class="ask-stel fl" placeholder="验证码" style="display:inline-block; width: 40% !important;">{form::checkcode('code_img','4','20',100,40)}
+            </p>
+			<p>
+				<font color="red" id="msgdemo" style="font-size: 15px;"></font>
+			</p>
+            <p class="clearfix">
+            	<input type="submit" name="" value="立即咨询" class="ask-ssubmit fl"><input type="reset" name="" value="重置" class="ask-sreset fr">
+            </p>
+			</form>
+        </div>
+		<div class="ask-con mb20">
+        	<ul class="mb20" id="wzlist">
+				{wy:ask action="lists" typeid="$typeid" siteid="1" status="1,99" num="4" page="$page" order="listorder desc,questionid desc" replyinfo="1" return="data"}
+				{loop $data $v}
+					<li class="ask">
+						<p>{$v['content']}</p>
+						<span class="ask-ico">问</span>
+					</li>
+					{if !empty($v[reply])}
+						{loop $v[reply] $r}	
+						<li class="response">
+							<p>{$r[content]}</p>
+							<span class="ask-ico">答</span>
+						</li>
+						{/loop}
+					{/if}
+				{/loop}
+				{/wy}
+            </ul>
+			<div class="ix-daoshi-btm">
+				<a href="javascript:void(0);" data-page="1" class="nMore">查看更多  <i class="aui-iconfont ico-gogo"></i></a>
+			</div>
+        </div>
+    </div>
+</section>
+<script type="text/javascript">
+    $(function() {
+        var demo = $("#myform").Validform({
+            tiptype: function(msg, o, cssctl) {
+                var objtip = $("#msgdemo");
+                cssctl(objtip, o.type);
+                objtip.text(msg);
+            },
+            ajaxPost: true, //AJAX请求
+            btnSubmit: "#submitform",
+            btnReset: "#btn_reset",
+            callback: function(data) { //AJAX请求的回调函数
+                if (data.status == "SUCCESS") {
+                    $('#myform')[0].reset();
+                    $('#msgdemo').html(data.message);
+                } else {
+                    $('#msgdemo').html( data.message);
+                    return false;
+                }
+            }
+        });
+        demo.addRule([{
+            ele: "#name",
+            datatype: "*1-8",
+            tip: "",
+            nullmsg: "姓名不能为空",
+            errormsg: "姓名在1-8个字符之间"
+
+        }, {
+            ele: "#tel",
+            tip: "",
+            datatype: "/^0{0,1}(13[0-9]|15[5-9]|15[0-3]|147|180|182|18[5-9])[0-9]{8}$/",
+            nullmsg: "请输入手机号码",
+            errormsg: "手机号码不正确"
+
+        }, {
+            ele: "#introduce",
+            datatype: "*6-1000",
+            tip: "",
+            nullmsg: "咨询内容不能为空",
+            errormsg: "咨询内容在6-1000个字之间"
+
+        }, {
+            ele: "#code",
+            tip: "",
+            datatype: "/^[0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z][0-9a-zA-Z]$/",
+            nullmsg: "请输入验证码",
+            errormsg: "请正确输入验证码"
+
+        }]);
+
+    });
+
+</script>
+<script type="text/javascript">
+    $(".nMore").click(function(){
+        var page  = Number($(this).attr('data-page')) + 1,
+            url  = '/index.php?m=wap&c=index&a=ajaxAskList&ajax=1&page='+page,
+            obj  = this;
+            <!-- $(obj).text("数据加载中..."); -->
+        $.getJSON(url, function(rs){
+            loading = false;
+            if (rs.data) {
+                $(obj).attr('data-page', page);
+                for (var i in rs.data) {
+                    var item = rs.data[i];
+                    var li='<li class="ask"><p>'+item.content+'</p><span class="ask-ico">问</span>	</li>';
+                     if (item.reply_content != '' && item.reply_content != null) {
+                       li+='<li class="response"><p>'+item.reply_content+'</p><span class="ask-ico">答</span>	</li>';
+                    } 
+                    li+='</li>';
+                    $('#wzlist').append(li);
+                }
+            } else {
+                <!-- $(obj).hide(); -->
+            };
+            <!-- $(obj).text(""); -->
+        });
+    });
+</script>
+{template "wap","footer"}

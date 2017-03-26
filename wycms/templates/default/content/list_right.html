@@ -1,0 +1,57 @@
+<td class="sider"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="title">
+    <tr>
+        <td><strong>团队导师王亚林</strong></td>
+    </tr>
+</table>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="box">
+        <tr>
+            {wy:get sql="select url,thumb from wy_news where id = 115" num="1" return="datas"}
+            {loop $datas $d}
+                <td height="232" align="center"><a href="{$d['url']}" target="_blank"><img src="{IMG_PATH}ahxb/zr.jpg" width="274" height="212" border="0" /></a></td>
+            {/loop}
+            {/wy}
+        </tr>
+    </table>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="title margin_top">
+        <tr>
+            <td><strong>刑事辩护团队</strong></td>
+        </tr>
+    </table>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="box">
+        <tr>
+            {wy:get sql="select url,thumb from wy_news where id = 214" num="1" return="datas"}
+            {loop $datas $d}
+            <td height="190" align="center"><a href="{$d['url']}" target="_blank"><img src="{IMG_PATH}/ahxb/tdzp.jpg" width="275" height="170" border="0" /></a></td>
+            {/loop}
+            {/wy}
+        </tr>
+    </table>
+    <div style="margin:10px 0; text-align:center;"><img src="{IMG_PATH}/ahxb/teltel.jpg" width="300" height="164" border="0" /></div>
+    {wy:get sql="select catid,url,catname from wy_category where catid = 66" num="1" return="datas"}
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="title margin_top">
+        <tr>
+            <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td><strong>{$datas[0]['catname']}</strong></td>
+                    <td align="right"><a href="{$datas[0]['url']}" target="_blank">更多>></a></td>
+                </tr>
+            </table></td>
+        </tr>
+    </table>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="box">
+        <tr>
+            <td>
+                <div class="lanse" style="padding:2px 0px 2px 3px;">
+                <ul>
+                {wy:content action="lists" catid="$datas[0]['catid']" num="20" order="listorder desc,updatetime desc" return="list"}
+                    {loop $list $l}
+                        <li><a href="{$l['url']}" title=" {$l['title']}"> {str_cut($l['title'],56,'')}</a></li>
+                    {/loop}
+                {/wy}
+                </ul>
+                </div>
+            </td>
+        </tr>
+    </table>
+    {/wy}
+</td>

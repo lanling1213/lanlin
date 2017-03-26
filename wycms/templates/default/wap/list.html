@@ -1,0 +1,100 @@
+{template "wap","header"}
+<header class="aui-bar aui-bar-nav">
+	<a class="aui-pull-left aui-btn">
+		<span class="aui-iconfont aui-icon-left"></span>
+	</a>
+	<div class="aui-title">{if $catid != '83'}{$CATEGORYS[$catid][catname]}{else}团队动态 {/if}</div>
+	<a href="/" class="goindex">首页</a>
+	<a href="search.html" class="gosearch"><img src="{IMG_PATH}wap/ico-search.png" alt=""></a>
+</header>
+{if $catid == 67 || $catid ==70 || $catid ==68}
+	<div class="inner-aboutbox-ry">
+		<ul class="clearfix" id="news18">
+		{wy:content action="lists" catid="$catid" num="4" return="data"}
+		{loop $data $v}
+			<li class="aui-col-xs-4"><a href="/show_{$catid}_{$v[id]}.html"><img src="{$v[thumb]}" alt="{$v[title]}"><br>{$v[title]}</a></li>
+		{/loop}
+		{/wy}
+			
+		</ul>
+		<div class="ix-daoshi-btm">
+			<a href="javascript:void(0);" id="more18" catid="{$catid}" class="nMore">查看更多  <i class="aui-iconfont ico-gogo"></i></a>
+		</div>
+	</div>
+	<script type="text/javascript">
+			var p18 = 2;
+			var num18 = 5;
+			var times18 = 10;
+			$("#more18").click(function() {
+				if (p18 > times18) {
+					$("#more18").html("更多精彩内容切换到电脑版浏览");
+					$("#more18").attr("href", "{$CATEGORYS[$catid][url]}");
+					return;
+				}
+				var catid = $('#more18').attr('catid');
+
+				$.post("/index.php?m=wap&c=index&a=ajaxList", {catid: catid, page: p18, num: num18}, function(data) {
+					p18 = p18 + 1;
+					eval("var datas=" + data);
+					var str = "";
+					for (var i = 0; i < datas.length; i++) {
+						var title = datas[i].title.substring(0, 30) + "...";
+						str += '<li class="aui-col-xs-4"><a href="/show_' + datas[i].catid + '_' + datas[i].id + '.html"><img src="'+datas[i].thumb+'" alt="'+ datas[i].title +'"><br>'+ datas[i].title +'</a></li>';
+					}
+					$("#news18").append(str);
+					if (datas.length < num18) {
+						$("#more18").css("display", "none");
+					}
+				});
+			});
+		</script>
+{else}
+	{if $catid=="83"}
+		<section class="shouji-pic"><img src="{IMG_PATH}wap/pic6.jpg" alt=""></section>
+	{else}
+		<section class="shouji-pic"><img src="{IMG_PATH}wap/pic4.jpg" alt=""></section>
+	{/if}
+	<section class="shouji-list">
+		<div class="ix-list">
+			<ul id="news18">
+				{wy:content action="lists" catid="$catid" num="5" order="inputtime desc" return="data"}
+				{loop $data $r}
+				<li><a href="/show_{$r[catid]}_{$r[id]}.html" class="rel"><em class="abs"></em>{str_cut($r['title'],'50','...')}</a></li>
+				{/loop}
+				{/wy}
+			</ul>
+			<div class="ix-daoshi-btm">
+				<a href="javascript:void(0);" id="more18" catid="{$catid}" class="nMore">查看更多  <i class="aui-iconfont ico-gogo"></i></a>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var p18 = 2;
+			var num18 = 5;
+			var times18 = 10;
+			$("#more18").click(function() {
+				if (p18 > times18) {
+					$("#more18").html("更多精彩内容切换到电脑版浏览");
+					$("#more18").attr("href", "{$CATEGORYS[$catid][url]}");
+					return;
+				}
+				var catid = $('#more18').attr('catid');
+
+				$.post("/index.php?m=wap&c=index&a=ajaxList", {catid: catid, page: p18, num: num18}, function(data) {
+					p18 = p18 + 1;
+					eval("var datas=" + data);
+					var str = "";
+					for (var i = 0; i < datas.length; i++) {
+
+						var title = datas[i].title.substring(0, 30) + "...";
+						str += ' <li><a href="/show_' + datas[i].catid + '_' + datas[i].id + '.html" class="rel"><em class="abs"></em>' + datas[i].title + '</a></li>';
+					}
+					$("#news18").append(str);
+					if (datas.length < num18) {
+						$("#more18").css("display", "none");
+					}
+				});
+			});
+		</script>
+	</section>
+{/if}
+{template "wap","footer"}

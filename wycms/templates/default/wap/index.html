@@ -1,0 +1,170 @@
+{template "wap","header"}
+<header class="aui-bar aui-bar-nav">
+	<a href="/" class="logo"><img src="{IMG_PATH}wap/logo.png" alt=""></a>
+	<a href="/" class="goindex">首页</a>
+	<a href="search.html" class="gosearch"><img src="{IMG_PATH}wap/ico-search.png" alt=""></a>
+</header>
+<div id="focus" class="focus">
+	<div class="hd">
+		<ul></ul>
+	</div>
+	<div class="bd">
+		<ul>
+			<li><a href="#"><img src="{IMG_PATH}wap/banner.jpg" /></a></li>
+			<li><a href="#"><img src="{IMG_PATH}wap/banner.jpg" /></a></li>
+			<li><a href="#"><img src="{IMG_PATH}wap/banner.jpg" /></a></li>
+		</ul>
+	</div>
+</div>
+<section class="iconavbox aui-grid">
+	<div class="aui-row">
+        <div class="aui-col-xs-4">
+            <a href="/lists_63.html"><i class="aui-iconfont ico-ix1"></i>
+            <div class="aui-grid-label">专业团队</div></a>
+        </div>
+        <div class="aui-col-xs-4">
+            <a href="/lists_74.html"><i class="aui-iconfont ico-ix2"></i>
+            <div class="aui-grid-label">亲办案例</div></a>
+        </div>
+        <div class="aui-col-xs-4">
+            <a href="/category_68.html"><i class="aui-iconfont ico-ix3"></i>
+            <div class="aui-grid-label">团队荣誉</div></a>
+        </div>
+        <div class="aui-col-xs-4">
+            <a href="/lists_83.html"><i class="aui-iconfont ico-ix4"></i>
+            <div class="aui-grid-label">团队动态</div></a>
+        </div>
+        <div class="aui-col-xs-4">
+            <a href="/category_149.html"><i class="aui-iconfont ico-ix5"></i>
+            <div class="aui-grid-label">刑事下午茶</div></a>
+        </div>
+        <div class="aui-col-xs-4">
+            <a href="/lists_82.html"><i class="aui-iconfont ico-ix6"></i>
+            <div class="aui-grid-label">刑事知识</div></a>
+        </div>
+        <div class="aui-col-xs-4">
+            <a href="/lists_147.html"><i class="aui-iconfont ico-ix7"></i>
+            <div class="aui-grid-label">辩护手记</div></a>
+        </div>
+        <div class="aui-col-xs-4">
+            <a href="/show_64_199.html"><i class="aui-iconfont ico-ix8"></i>
+            <div class="aui-grid-label">关于金亚太</div></a>
+        </div>
+        <div class="aui-col-xs-4">
+            <a href="lianxi.html"><i class="aui-iconfont ico-ix9"></i>
+            <div class="aui-grid-label">联系我们</div></a>
+        </div>
+    </div>
+</section>
+<section class="ixbox">
+	<div class="ixbox-top">
+		<h3 class="rel"><em class="abs"></em>动态<a href="/lists_83.html" class="abs">更多 <i class="aui-iconfont ico-gogo"></i></a></h3>
+	</div>
+	<div class="ixbox-con">
+		<div id="slideBox" class="slideBox">
+			<div class="bd">
+				<ul>
+					<li>
+						<a class="pic" href="#"><img src="{IMG_PATH}wap/pic1.jpg" /></a>
+						<a class="tit" href="#">墨西哥教师罢工 与警察激烈冲突</a>
+					</li>
+					<li>
+						<a class="pic" href="#"><img src="{IMG_PATH}wap/pic2.jpg"/></a>
+						<a class="tit" href="#">日右翼游行纪念钓岛日右翼游行纪念钓岛日右翼游行纪念钓岛"国有化"周年</a>
+					</li>
+					<li>
+						<a class="pic" href="#"><img src="{IMG_PATH}wap/pic1.jpg"/></a>
+						<a class="tit" href="#">女兵竞选美国小姐鼓励女性自强女兵竞选美国小姐鼓励女性自强</a>
+					</li>
+					<li>
+						<a class="pic" href="#"><img src="{IMG_PATH}wap/pic1.jpg"/></a>
+						<a class="tit" href="#">济南现“最窄人行道” 仅0.2米宽</a>
+					</li>
+					<li>
+						<a class="pic" href="#"><img src="{IMG_PATH}wap/pic1.jpg"/></a>
+						<a class="tit" href="#">济南现“最窄人行道最窄人行道最窄人行道” 仅0.2米宽</a>
+					</li>
+				</ul>
+			</div>
+			<div class="hd">
+				<ul></ul>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="ixbox">
+	<div class="ixbox-top">
+		<h3 class="rel"><em class="abs"></em>团队导师</h3>
+	</div>
+	<div class="ixbox-con">
+		<div class="ix-daoshi">
+			<div class="ix-daoshi-con">
+				<img src="{IMG_PATH}wap/pic3.jpg" alt="" class="fl" />
+				{wy:get sql="select * from wy_news where id='115'" return="data"}
+				{loop $data $r}
+					<p>{$r[description]}</p>
+				{/loop}
+				{/wy}
+				
+			</div>
+			<div class="ix-daoshi-btm">
+				<a href="/show_67_115.html">查看详细  <i class="aui-iconfont ico-gogo"></i></a>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="ixbox">
+	<div class="ixbox-top">
+		<h3 class="rel"><em class="abs"></em>亲办案例<a href="/lists_74.html" class="abs">更多 <i class="aui-iconfont ico-gogo"></i></a></h3>
+	</div>
+	<div class="ixbox-con">
+		<div class="ix-list">
+			<ul>
+				{wy:content action="lists" catid="74" num="4" order="inputtime desc" return="data"}
+				{loop $data $v}
+					<li><a href="/show_{$v[catid]}_{$v[id]}.html" class="rel"><em class="abs"></em>{$v[title]}</a></li>
+				{/loop}
+				{/wy}			
+			</ul>
+		</div>
+	</div>
+</section>
+<section class="ixbox">
+	<div class="ixbox-top">
+		<h3 class="rel"><em class="abs"></em>刑事知识<a href="/lists_82.html" class="abs">更多 <i class="aui-iconfont ico-gogo"></i></a></h3>
+	</div>
+	<div class="ixbox-con">
+		<div class="ix-list">
+			<ul>
+				{wy:content action="lists" catid="82" num="4" order="inputtime desc" return="data"}
+				{loop $data $v}
+					<li><a href="/show_{$v[catid]}_{$v[id]}.html" class="rel"><em class="abs"></em>{$v[title]}</a></li>
+				{/loop}
+				{/wy}
+			</ul>
+		</div>
+	</div>
+</section>
+<section class="ixbox">
+	<div class="ixbox-top">
+		<h3 class="rel"><em class="abs"></em>团队荣誉<a href="#" class="abs">更多 <i class="aui-iconfont ico-gogo"></i></a></h3>
+	</div>
+	<div class="ixbox-con">
+		<div class="ix-rongyu">
+			<div id="ixrongyu" class="ixrongyu">
+				<div class="hd">
+					<ul></ul>
+				</div>
+				<div class="bd">
+					<ul>
+						<li><a href="#"><img src="{IMG_PATH}wap/pic2.jpg" /></a></li>
+						<li><a href="#"><img src="{IMG_PATH}wap/pic2.jpg" /></a></li>
+						<li><a href="#"><img src="{IMG_PATH}wap/pic2.jpg" /></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+{template "wap","footer"}

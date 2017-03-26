@@ -1,0 +1,67 @@
+{template "content","header"}
+{template "content","top"}
+<table width="1000" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tbody><tr valign="top">
+        <td class="news_list"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="position">
+            <tbody>
+            <tr>
+                <td>您当前的位置：<a href="/">首页</a>&nbsp;&gt;&nbsp;{catpos($catid)}</td>
+            </tr>
+            </tbody></table>
+            {if $catid == 67 || $catid == 68 || $catid == 70}
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="{if $catid == 68}box_picry{else}box_pic{/if}">
+                <tbody><tr>
+                    <td>
+                        {wy:content action="lists" catid="$catid" page="$page" num="50" order="listorder desc,updatetime desc" return="artList"}
+                        {loop $artList $al}
+                        <ul>
+                            <li><a href="{$al['url']}" title="{$al['title']}"><img src="{$al['thumb']}"></a><div style="height:30px; line-height:30px; text-align:center;"><a href="{$al['url']}" title="{$al['title']}">{$al['title']}</a></div></li>
+                        </ul>
+                        {/loop}
+                        {/wy}
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                            <tr>
+                                <td height="38"><div class="epages">{$pages}</div></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <p>&nbsp;</p>
+                    </td>
+                </tr>
+                </tbody></table>
+            {else}
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="box">
+                <tbody>
+                <tr>
+                    <td>
+                        <ul style="border-bottom: 1px dashed #ccc;">
+                            {wy:content action="lists" catid="$catid" page="$page" num="30" order="listorder desc,updatetime desc" return="artList"}
+                            {loop $artList $al}
+                            {if $n%6== 0}
+                            </ul>
+                            <ul style="border-bottom: 1px dashed #ccc;">
+                            {/if}
+                            <li><a href="{$al['url']}" title="{$al['title']}">{str_cut($al['title'],60,'')}</a> <span>{date('Y-m-d',$al['inputtime'])}</span></li>
+                            {/loop}
+                            {/wy}
+                        </ul>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                            <tr>
+                                <td height="38"><div class="epages">{$pages}</div></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <p>&nbsp;</p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            {/if}
+        </td>
+        <td width="10">&nbsp;</td>
+        {template "content","list_right"}
+    </tr>
+    </tbody></table>
+{template "content","footer"}

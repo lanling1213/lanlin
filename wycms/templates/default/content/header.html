@@ -1,0 +1,22 @@
+{php $siteinfo = siteinfo(1);$info = string2array($siteinfo['infos']);}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{php echo trim($SEO['title'] ? $SEO['title']  : $SEO['site_title'],' -') ?: '王亚林刑事辩护网|合肥刑事律师|安徽刑事律师事务所'}</title>
+<meta name="keywords" content="{$SEO['keyword']}" />
+<meta name="description" content="{$SEO['description']}" />
+<link href="{CSS_PATH}ahxb/style.css" rel="stylesheet" type="text/css" />
+<link href="{CSS_PATH}default/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="{CSS_PATH}ahxb/base.css" type="text/css" />
+<script type="text/javascript" src="{JS_PATH}ahxb/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="{JS_PATH}ahxb/tan-fang.js"></script>
+{if $catid == 0}
+    <SCRIPT language=javascript src="{JS_PATH}ahxb/common.js"></SCRIPT>
+{elseif $catid}
+    <script type="text/javascript" src="{JS_PATH}/default/tabs.js"></script>
+{/if}
+<base target="_blank">
+</head>
+<body>
+<body>

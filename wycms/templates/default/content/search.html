@@ -1,0 +1,225 @@
+{template "content","header"}
+{template "content","top"}
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tbody>
+    <tr valign="top">
+        <td class="list_content">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="position">
+                <tbody>
+                <tr>
+                    <td>现在的位置：<a href="/" class="classlinkclass">首页</a>&nbsp;&gt;&nbsp;<a href="/search/"
+                                                                                          class="classlinkclass">高级搜索</a>&nbsp;&gt;&nbsp;搜索结果
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            {if $type}
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="box">
+                <tbody>
+                <tr>
+                    <td>
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <form action="/index.php?m=content&c=index&a=search" method="post" name="search_news" id="search_news">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tbody>
+                                            <tr>
+                                                <td width="54%">
+                                                    <table width="100%" border="0" cellpadding="6" cellspacing="0">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td bgcolor="#F4F4F4"><strong>搜索范围</strong></td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td width="46%">
+                                                    <table width="100%" border="0" cellpadding="6" cellspacing="0">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td bgcolor="#F4F4F4"><strong>搜索栏目</strong></td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="top">
+                                                    <table width="100%" border="0" cellpadding="6" cellspacing="0">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td><input type="radio" name="show" value="title"
+                                                                       checked="checked">
+                                                                标题
+                                                                <input type="radio" name="show" value="description">
+                                                                简介
+                                                                <input type="radio" name="show" value="content">
+                                                                内容
+                                                                <input type="radio" name="show" value="username">
+                                                                作者
+                                                                <input name="show" type="radio"
+                                                                       value="title,description,content,username">
+                                                                不限
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <br>
+                                                    <table width="100%" border="0" cellpadding="6" cellspacing="0">
+                                                        <tbody>
+                                                        <tr bgcolor="#F4F4F4">
+                                                            <td><strong>时间限制</strong><font color="#666666">(例：2017-01-01)</font>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="30" valign="top">从
+                                                                <input name="starttime" type="text" value=""
+                                                                       size="12" onclick="setday(this)">
+                                                                到
+                                                                <input name="endtime" type="text" value=""
+                                                                       size="12" onclick="setday(this)">
+                                                                之间的数据
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td bgcolor="#F4F4F4">&nbsp;</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td valign="top">
+                                                    <table width="100%" border="0" cellspacing="6" cellpadding="0">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td><select name="catid" size="8" id="select2"
+                                                                        style="width: 100%;height:112px">
+                                                                <option value="0" selected="selected">所有栏目</option>
+                                                                {wy:content action="category" catid="0" order="listorder
+                                                                desc,id desc" return="datas"}
+                                                                {loop $datas $d}
+                                                                <option value="{$d['catid']}">|-{$d['catname']}</option>
+                                                                {if $d['child']}
+                                                                {loop subcat($d['catid']) $r}
+                                                                <option value="{$r['catid']}"
+                                                                        style="background:#99C4E3">&nbsp;&nbsp;|-{$r['catname']}
+                                                                </option>
+                                                                {/loop}
+                                                                {/if}
+                                                                {/loop}
+
+                                                                {/wy}
+                                                            </select></td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table width="100%" border="0" cellpadding="6" cellspacing="0">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td bgcolor="#F4F4F4"><strong>结果显示</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="30">
+                                                            <select name="orderby" id="select4">
+                                                                <option value="inputtime">按发布日期</option>
+                                                                <option value="id">信息ID</option>
+                                                                <option value="hits">人气</option>
+                                                            </select>
+                                                            <select name="order" id="select5">
+                                                                <option value="0">倒序排列</option>
+                                                                <option value="1">顺序排列</option>
+                                                            </select>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                        <table width="100%" border="0" cellpadding="4" cellspacing="0">
+                                            <tbody>
+                                            <tr>
+                                                <td>关键字：
+                                                    <input name="keyword" type="text" id="keyboard2" class="keyword"size="60">
+                                                    <input type="submit" name="Submit22" class="search" value="搜索" >
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </form>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            {else}
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="box">
+                <tbody>
+                <tr>
+                    <td>
+                        <form action="/index.php?m=content&c=index&a=search" method="post" name="search_news"
+                              id="search_news">
+                            <table width="100%" border="0" cellspacing="6" cellpadding="0">
+                                <input type="hidden" name="show" value="title">
+                                <tbody>
+                                <tr>
+                                    <td height="32">关键字：
+                                        <input name="keyword" type="text" id="keyboard" class="keyword" value="{$keyword}" size="42">
+                                        <input type="submit" name="Submit22" class="search" value="搜索">
+                                        &nbsp;
+                                        <input type="button" name="Submit" value="高级搜索"
+                                               onclick="self.location.href='/index.php?m=content&c=index&a=search&t=advanced'">
+                                        (多个关键字请用"空格"隔开)
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </form>
+                        <table width="100%" border="0" cellpadding="0" cellspacing="6">
+                            <tbody>
+                            <tr>
+                                <td>系统搜索到约有<font color="red">&nbsp;&nbsp;{count($search_detail)}&nbsp;&nbsp;</font>项符合&nbsp;&nbsp;<font
+                                        color="red">{$keyword}</font>&nbsp;&nbsp;的查询结果
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                        <div style="padding-left:12px; border:1px dashed #CCC; line-height:30px;">
+                            {loop $search_detail $detail}
+                            <a class="l" href="{$detail['url']}" target="_blank">{$detail['title']}</a><br/>
+                            {/loop}
+                        </div>
+
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="list_page">
+                            <tbody>
+                            <tr>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            {/if}
+        </td>
+    </tr>
+    </tbody>
+</table>
+<script type="text/javascript">
+    $(function(){
+        $(".search").click(function(){
+            if(!$(this).siblings('.keyword').val()){
+                alert("请填写搜索内容!");
+                return false;
+            }
+        });
+    });
+</script>
+{template "content","footer"}
