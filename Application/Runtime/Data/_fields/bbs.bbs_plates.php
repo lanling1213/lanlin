@@ -1,0 +1,1 @@
+a:5:{i:0;s:9:"plates_id";i:1;s:12:"plates_title";i:2;s:13:"plates_detail";s:3:"_pk";s:9:"plates_id";s:5:"_type";a:3:{s:9:"plates_id";s:7:"int(11)";s:12:"plates_title";s:4:"text";s:13:"plates_detail";s:4:"text";}}

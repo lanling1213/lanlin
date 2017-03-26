@@ -1,0 +1,1 @@
+a:5:{i:0;s:8:"annou_id";i:1;s:11:"annou_title";i:2;s:13:"annou_content";s:3:"_pk";s:8:"annou_id";s:5:"_type";a:3:{s:8:"annou_id";s:7:"int(11)";s:11:"annou_title";s:4:"text";s:13:"annou_content";s:4:"text";}}

@@ -1,0 +1,1 @@
+a:7:{i:0;s:8:"theme_id";i:1;s:11:"theme_title";i:2;s:12:"theme_detail";i:3;s:9:"plates_id";i:4;s:10:"theme_time";s:3:"_pk";s:8:"theme_id";s:5:"_type";a:5:{s:8:"theme_id";s:7:"int(11)";s:11:"theme_title";s:4:"text";s:12:"theme_detail";s:4:"text";s:9:"plates_id";s:7:"int(11)";s:10:"theme_time";s:8:"datetime";}}

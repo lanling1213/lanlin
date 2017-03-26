@@ -1,0 +1,234 @@
+
+body {
+	margin: 0;
+	padding: 0;
+    font-family: "微软雅黑";
+}
+
+a {
+	text-decoration: none;
+	color: #286A46;
+}
+
+
+.search-wrap {
+    height: 35px;
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.search-content {
+    margin-left: 50px;
+}
+
+.search-tab td {
+    padding-left: 10px;
+}
+
+.search-btn {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    border: 0;
+    border-radius: 5px;
+    background: #03DD03;
+    color: white;
+}
+
+
+.result-wrap {
+    height: auto;
+    min-height: 488px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+.result-content-modulAdd, .result-content-themeAdd {
+    height: 35px;
+    line-height: 35px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.result-content-modulAdd .modulAdd,  .result-content-themeAdd .themeAdd{
+    width: 100px;
+    height: 30px;
+    margin-left: 100px;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    background: #03DD03;
+}
+
+.result-content-postSearch {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    margin-left: 10px;
+}
+
+.result-content-title {
+    height: 25px;
+    line-height: 25px;
+    padding: 5px 0;
+    background: #ddd;
+}
+
+.rct-user {
+    float: left;
+    width: 400px;
+    padding-left: 30px;
+    border-right: 1px solid #000;
+}
+
+.rct-operate {
+    float: left;
+    width: 250px;
+    padding-left: 250px;
+}
+
+
+.rc-userList {
+    height: auto;
+    min-height: 360px; 
+}
+
+.rc-userList li {
+    list-style: none;
+    height: 35px;
+    line-height: 35px;
+    margin-left: -39px;
+    border-bottom: 1px solid #ddd;
+}
+
+.rc-userList ul>li:first-child {
+    border-top: 1px solid #ddd;
+} 
+
+.rcul-name {
+    float: left;
+    width: 400px;
+    display: block;
+    padding-left: 29px;
+    border-right: 1px solid #ddd;
+}
+
+.rcul-operate {
+    float: left;
+    width: 500px;
+    display: block;
+    padding-left: 50px;
+}
+
+.rcul-operate a {
+    padding-left: 100px;
+}
+
+
+
+
+
+.rc-userInfo-name {
+    height: 35px;
+    line-height: 35px;
+    padding-left: 40px;
+}
+
+.rc-userInfo-name span {
+    padding-right: 100px;
+}
+
+.rc-userInfo-postList h3 {
+    padding: 20px 0 0 55px
+}
+
+.rc-userInfo-postList li {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    list-style: none;
+    margin-left: -20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.rc-userInfo-postList ul>li:first-child {
+    border-top: 1px solid #ddd;
+} 
+
+
+
+.moderatorTable {
+    width: 100%;
+    height: auto;
+    min-height: 450px;
+}
+
+.mt-list {
+    height: 45px;
+    line-height: 45px;
+}
+
+.modulName {
+    width: 175px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.moderatorName {
+    width: 175px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.moderator-operate {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.moderator-operate a{
+    margin-left: 30px;   
+}
+
+.mc-list {
+    height: 170px;
+}
+
+.mc-list li {
+    list-style: none;
+    height: 45px;
+    line-height: 45px;
+    margin-left: -30px;
+    padding-left: 50px;
+    border-bottom: 1px solid #ddd;
+}
+
+.mc-list li span, .mc-list li a {
+    margin-left: 30px;
+}
+
+.mc-list li input {
+    margin-left: 30px;
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.newModerator {
+    margin-left: 100px;
+    width: 100px;
+    height: 35px;
+    border: 0;
+    border-radius: 3px;
+    background: #03DD03;
+    color: white;
+}

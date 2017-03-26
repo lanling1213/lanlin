@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" charset="utf-8">
+	
+	<css href="__PUBLIC__/Css/Moderator.css"/>
+	<title>BBS论坛版主后台管理系统</title>
+</head>
+<body>
+
+	<div class="topbar-wrap">
+	    <div class="topbar-inner">
+	    	<h1>BBS论坛版主后台管理系统</h1>
+	    </div>
+        <div class="topbar-right">
+            <p>版主：<i id="moderatorName"><?php echo $_SESSION['moderator_name'];?></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><a href="{:U('Login/out')}">注销</a></span></p>
+            
+        </div>
+	</div>
+
+	<div class="container">
+	    <div class="sidebar-wrap">
+
+	        <div class="sidebar-title">
+	            <h2>菜单</h2>
+	        </div>
+
+	        <div class="sidebar-content">
+	            <ul class="sidebar-list">
+	            	<li><a href="{:U('Moderator/modPlate')}">&nbsp;<i><img src="__PUBLIC__/Images/moderator.png"></i>&nbsp;板块信息</a></li>
+	                <li><a href="{:U('Moderator/modTitle')}">&nbsp;<i><img src="__PUBLIC__/Images/theme.png"></i>&nbsp;主题管理</a></li>
+	                <li><a href="{:U('Moderator/modAnnou')}">&nbsp;<i><img src="__PUBLIC__/Images/annoucement.png"></i>&nbsp;公告管理</a></li>
+	            </ul>
+	        </div>
+
+	    </div>
+        
+        <!--main-wrap-->
+        <div class="main-wrap">
+            
+            <!--main-wrap标题-->
+            <div class="m-w">
+                <div class="main-wrap-list">
+                    <i><img src="__PUBLIC__/Images/homepage.png" ></i>
+                    <a href="{:U()}">首页</a>
+                    <span class="crumb-step">&gt;</span>
+                    <span>版块信息</span>
+                    
+                </div>
+            </div>
+            
+            <!--main-wrap内容-->
+            <div class="result-wrap">
+                <div class="result-content">
+                    <form action="__URL__/updatePlates" method="post" id="" name="myform">
+                        <table class="insert-tab" width="100%">
+                            <tbody>
+                                <tr>
+                                    <th>版块名：</th>
+                                    <td>
+                                        <input class="common-text required" id="title" name="title" size="50" value="" type="text">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>版块简介：</th>
+                                    <td><textarea name="content" class="common-textarea" id="content" cols="30" style="width: 98%;" rows="10"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <th></th>
+                                    <td>
+                                        <input class="btn-primary" value="保存" type="submit">
+                                        <input class="btn-back" onclick="" value="返回" type="button">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+        
+	</div>
+	
+</body>
+</html>
