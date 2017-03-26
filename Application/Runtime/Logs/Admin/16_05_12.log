@@ -1,0 +1,2851 @@
+[ 2016-05-12T01:15:01+08:00 ] ::1 /BBS/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000802s ]
+
+[ 2016-05-12T01:15:09+08:00 ] ::1 /BBS/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SELECT * FROM `bbs_moderator` WHERE `moderator_name` = 'lan'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2016-05-12T01:15:10+08:00 ] ::1 /BBS/Admin/Login/moderatorIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001327s ]
+
+[ 2016-05-12T01:15:12+08:00 ] ::1 /BBS/Admin/Login/modPost.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+ERR: 非法操作:modPost
+
+[ 2016-05-12T01:16:05+08:00 ] ::1 /BBS/Admin/Login/moderatorIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2016-05-12T01:16:06+08:00 ] ::1 /BBS/Admin/Login/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+ERR: 非法操作:modPlate
+
+[ 2016-05-12T01:17:26+08:00 ] ::1 /BBS/Admin/Login/moderatorIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2016-05-12T01:17:27+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+
+[ 2016-05-12T01:18:52+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2016-05-12T01:19:02+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+
+[ 2016-05-12T01:19:36+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+
+[ 2016-05-12T01:19:36+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+
+[ 2016-05-12T01:19:37+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+
+[ 2016-05-12T01:21:47+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+
+[ 2016-05-12T01:21:48+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+
+[ 2016-05-12T01:21:48+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+
+[ 2016-05-12T01:21:49+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+
+[ 2016-05-12T01:21:49+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+
+[ 2016-05-12T01:21:49+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+
+[ 2016-05-12T01:21:49+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+
+[ 2016-05-12T01:21:54+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+
+[ 2016-05-12T01:21:55+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+
+[ 2016-05-12T01:22:56+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+ERR: 1054:Unknown column 'lan' in 'where clause'
+ [ SQL语句 ] : SELECT * from bbs_plates a, bbs_moderator b where a.plates_id = b.plates_id and b.moderator_name = lan
+ERR: 1054:Unknown column 'lan' in 'where clause'
+ [ SQL语句 ] : SELECT * from bbs_plates a, bbs_moderator b where a.plates_id = b.plates_id and b.moderator_name = lan
+
+[ 2016-05-12T01:23:12+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+SQL: SELECT * from bbs_plates a, bbs_moderator b where a.plates_id = b.plates_id and b.moderator_name = 'lan' [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\fde9a1a03c8e5f6f4bc4aefeea0f83d0.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2016-05-12T01:23:30+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+SQL: SELECT * from bbs_plates a, bbs_moderator b where a.plates_id = b.plates_id and b.moderator_name = 'lan' [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\fde9a1a03c8e5f6f4bc4aefeea0f83d0.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2016-05-12T01:23:32+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+SQL: SELECT * from bbs_plates a, bbs_moderator b where a.plates_id = b.plates_id and b.moderator_name = 'lan' [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\fde9a1a03c8e5f6f4bc4aefeea0f83d0.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2016-05-12T01:28:55+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+SQL: SELECT * from bbs_plates a, bbs_moderator b where a.plates_id = b.plates_id and b.moderator_name = 'lan' [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\fde9a1a03c8e5f6f4bc4aefeea0f83d0.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2016-05-12T01:28:56+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updatePlate/platesID/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2016-05-12T01:29:06+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updatePlate/platesID/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000813s ]
+
+[ 2016-05-12T01:34:17+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updatePlate/platesID/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+
+[ 2016-05-12T01:34:40+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updatePlate/platesID/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: themeID D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\0ac057b14dcabafcb751480c63715990.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002141s ]
+
+[ 2016-05-12T01:34:45+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updatePlates
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+NOTIC: [8] Undefined index: platesID D:\AppServ\www\BBS\Application\Admin\Controller\ModeratorController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2016-05-12T01:34:49+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updatePlates
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+NOTIC: [8] Undefined index: platesID D:\AppServ\www\BBS\Application\Admin\Controller\ModeratorController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2016-05-12T01:36:11+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+SQL: SELECT * from bbs_plates a, bbs_moderator b where a.plates_id = b.plates_id and b.moderator_name = 'lan' [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\fde9a1a03c8e5f6f4bc4aefeea0f83d0.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001180s ]
+
+[ 2016-05-12T01:36:12+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updatePlate/platesID/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2016-05-12T01:36:19+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updatePlates
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+NOTIC: [8] Undefined index: platesID D:\AppServ\www\BBS\Application\Admin\Controller\ModeratorController.class.php 第 16 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2016-05-12T01:37:10+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+SQL: SELECT * from bbs_plates a, bbs_moderator b where a.plates_id = b.plates_id and b.moderator_name = 'lan' [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\fde9a1a03c8e5f6f4bc4aefeea0f83d0.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2016-05-12T01:37:11+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updatePlate/platesID/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2016-05-12T01:37:46+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updatePlate/platesID/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2016-05-12T01:37:48+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updatePlate/platesID/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2016-05-12T01:37:52+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updatePlates
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001276s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2016-05-12T01:42:18+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updatePlate/platesID/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2016-05-12T01:42:31+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updatePlates
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: UPDATE `bbs_plates` SET `plates_title`='蓝天',`plates_detail`='白云' WHERE ( plates_id=2 ) [ RunTime:0.0930s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2016-05-12T01:42:32+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updatePlate/platesID/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2016-05-12T15:01:03+08:00 ] ::1 /BBS/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2016-05-12T15:01:13+08:00 ] ::1 /BBS/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SELECT * FROM `bbs_moderator` WHERE `moderator_name` = 'lan'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2016-05-12T15:01:14+08:00 ] ::1 /BBS/Admin/Login/moderatorIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2016-05-12T15:01:16+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+SQL: SELECT * from bbs_plates a, bbs_moderator b where a.plates_id = b.plates_id and b.moderator_name = 'lan' [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\fde9a1a03c8e5f6f4bc4aefeea0f83d0.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2016-05-12T15:01:18+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updatePlate/platesID/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000712s ]
+
+[ 2016-05-12T15:01:23+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+SQL: SELECT * from bbs_plates a, bbs_moderator b where a.plates_id = b.plates_id and b.moderator_name = 'lan' [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\fde9a1a03c8e5f6f4bc4aefeea0f83d0.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2016-05-12T15:01:24+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updatePlate/platesID/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2016-05-12T15:03:51+08:00 ] ::1 /BBS/Admin/Login/moderatorIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002128s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001912s ]
+
+[ 2016-05-12T15:05:21+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+SQL: SELECT * from bbs_plates a, bbs_moderator b where a.plates_id = b.plates_id and b.moderator_name = 'lan' [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\fde9a1a03c8e5f6f4bc4aefeea0f83d0.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2016-05-12T15:09:04+08:00 ] ::1 /BBS/Admin/Login/moderatorIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2016-05-12T15:09:05+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modTitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2016-05-12T15:09:06+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPost.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2016-05-12T15:09:08+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modAnnou.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2016-05-12T15:09:10+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+SQL: SELECT * from bbs_plates a, bbs_moderator b where a.plates_id = b.plates_id and b.moderator_name = 'lan' [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\fde9a1a03c8e5f6f4bc4aefeea0f83d0.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2016-05-12T15:10:27+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+SQL: SELECT * from bbs_plates a, bbs_moderator b where a.plates_id = b.plates_id and b.moderator_name = 'lan' [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\fde9a1a03c8e5f6f4bc4aefeea0f83d0.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2016-05-12T15:10:29+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updatePlate/platesID/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001317s ]
+
+[ 2016-05-12T15:26:06+08:00 ] ::1 /BBS/Admin/Login/moderatorIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2016-05-12T15:26:07+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modTitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+SQL: SELECT * from bbs_theme a, bbs_moderator b where a.plates_id = b.plates_id and b.moderator_name = 'lan' [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2016-05-12T15:28:41+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modTitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000336s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001260s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+
+[ 2016-05-12T15:28:53+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modTitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+SQL: SELECT * from bbs_theme a, bbs_moderator b where a.plates_id = b.plates_id and b.moderator_name = 'lan' [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-05-12T15:28:56+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updatePlate/platesID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002079s ]
+
+[ 2016-05-12T15:28:57+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updatePlate/platesID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001297s ]
+
+[ 2016-05-12T15:39:25+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modTitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001852s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined variable: post D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+
+[ 2016-05-12T15:40:14+08:00 ] ::1 /BBS/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001935s ]
+SQL: SELECT * FROM `bbs_moderator` WHERE `moderator_name` = 'lan'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2016-05-12T15:40:15+08:00 ] ::1 /BBS/Admin/Login/moderatorIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2016-05-12T15:40:16+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modTitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined variable: post D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+
+[ 2016-05-12T15:40:20+08:00 ] ::1 /BBS/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2016-05-12T15:40:26+08:00 ] ::1 /BBS/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001182s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+SQL: SELECT * FROM `bbs_moderator` WHERE `moderator_name` = 'lan'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2016-05-12T15:40:27+08:00 ] ::1 /BBS/Admin/Login/moderatorIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2016-05-12T15:40:29+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modTitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: post D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+
+[ 2016-05-12T15:42:10+08:00 ] ::1 /BBS/Admin/Login/moderatorIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2016-05-12T15:42:12+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modTitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined variable: post D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+
+[ 2016-05-12T15:43:02+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modTitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2016-05-12T15:43:46+08:00 ] ::1 /BBS/Admin/Login/moderatorIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2016-05-12T15:45:06+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modAnnou.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+SQL: SELECT * FROM `bbs_annou` WHERE ( plates_id=2 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: theme_title D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+NOTIC: [8] Undefined variable: plateInfo D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+NOTIC: [8] Undefined index: theme_id D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+NOTIC: [8] Undefined index: theme_id D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+NOTIC: [8] Undefined index: theme_title D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+NOTIC: [8] Undefined variable: plateInfo D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+NOTIC: [8] Undefined index: theme_id D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+NOTIC: [8] Undefined index: theme_id D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2016-05-12T15:45:31+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modAnnou.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002175s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+SQL: SELECT * FROM `bbs_annou` WHERE ( plates_id=2 )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: plateInfo D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+NOTIC: [8] Undefined index: theme_id D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+NOTIC: [8] Undefined index: theme_id D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+NOTIC: [8] Undefined variable: plateInfo D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+NOTIC: [8] Undefined index: theme_id D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+NOTIC: [8] Undefined index: theme_id D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\1bbc0ecae03a783c4425b971b0fb3e9b.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001264s ]
+
+[ 2016-05-12T15:45:47+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPlate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+SQL: SELECT * from bbs_plates a, bbs_moderator b where a.plates_id = b.plates_id and b.moderator_name = 'lan' [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\fde9a1a03c8e5f6f4bc4aefeea0f83d0.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001170s ]
+
+[ 2016-05-12T15:45:49+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modTitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2016-05-12T16:05:28+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modTitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2016-05-12T16:05:29+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modTitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2016-05-12T16:05:31+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updatePlate/platesID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001942s ]
+
+[ 2016-05-12T16:06:06+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modTitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2016-05-12T16:06:07+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updateTitle/platesID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+NOTIC: [8] Undefined index: platesID D:\AppServ\www\BBS\Application\Admin\Controller\ModeratorController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2016-05-12T16:09:14+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updateTitle/platesID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+NOTIC: [8] Undefined index: platesID D:\AppServ\www\BBS\Application\Admin\Controller\ModeratorController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2016-05-12T16:09:21+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updateTitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001105s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+NOTIC: [8] Undefined index: platesID D:\AppServ\www\BBS\Application\Admin\Controller\ModeratorController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008710s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2016-05-12T16:09:37+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updateTitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+NOTIC: [8] Undefined index: platesID D:\AppServ\www\BBS\Application\Admin\Controller\ModeratorController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2016-05-12T16:09:52+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updateTitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+NOTIC: [8] Undefined index: platesID D:\AppServ\www\BBS\Application\Admin\Controller\ModeratorController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2016-05-12T16:09:53+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updateTitles
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2016-05-12T16:10:01+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updateTitles
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001606s ]
+
+[ 2016-05-12T16:10:07+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updateTitles
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001568s ]
+
+[ 2016-05-12T16:18:41+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modTitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0016s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2016-05-12T16:18:42+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modTitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0026s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2016-05-12T16:18:44+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updateTitle/themeID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+NOTIC: [8] Undefined index: platesID D:\AppServ\www\BBS\Application\Admin\Controller\ModeratorController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2016-05-12T16:19:03+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updateTitles
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: UPDATE `bbs_theme` SET `theme_detail`='您好',`theme_time`='2016-05-12 16:05:03' WHERE `theme_id` = 4 [ RunTime:0.0615s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001412s ]
+
+[ 2016-05-12T16:19:04+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updateTitle/themeID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+NOTIC: [8] Undefined index: platesID D:\AppServ\www\BBS\Application\Admin\Controller\ModeratorController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2016-05-12T16:19:22+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updateTitle/themeID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+NOTIC: [8] Undefined index: platesID D:\AppServ\www\BBS\Application\Admin\Controller\ModeratorController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-05-12T16:19:24+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modTitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2016-05-12T16:19:35+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updateTitle/themeID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+NOTIC: [8] Undefined index: platesID D:\AppServ\www\BBS\Application\Admin\Controller\ModeratorController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2016-05-12T16:20:14+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updateTitle/themeID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+NOTIC: [8] Undefined index: platesID D:\AppServ\www\BBS\Application\Admin\Controller\ModeratorController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2016-05-12T16:20:15+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updateTitles
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: UPDATE `bbs_theme` SET `theme_detail`='',`theme_time`='2016-05-12 16:05:15' WHERE `theme_id` = 4 [ RunTime:0.0637s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001520s ]
+
+[ 2016-05-12T16:20:16+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updateTitle/themeID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001481s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+NOTIC: [8] Undefined index: platesID D:\AppServ\www\BBS\Application\Admin\Controller\ModeratorController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001558s ]
+
+[ 2016-05-12T16:20:58+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updateTitle/themeID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+NOTIC: [8] Undefined index: platesID D:\AppServ\www\BBS\Application\Admin\Controller\ModeratorController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2016-05-12T16:21:07+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updateTitles
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: UPDATE `bbs_theme` SET `theme_title`='你好',`theme_detail`='hello',`theme_time`='2016-05-12 16:05:07' WHERE `theme_id` = 4 [ RunTime:0.0357s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2016-05-12T16:21:08+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updateTitle/themeID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+NOTIC: [8] Undefined index: platesID D:\AppServ\www\BBS\Application\Admin\Controller\ModeratorController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2016-05-12T16:21:34+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updateTitles
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+SQL: UPDATE `bbs_theme` SET `theme_title`='社团',`theme_detail`='轮滑',`theme_time`='2016-05-12 16:05:33' WHERE `theme_id` = 4 [ RunTime:0.0759s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001254s ]
+
+[ 2016-05-12T16:21:35+08:00 ] ::1 /BBS/index.php/Admin/Moderator/updateTitle/themeID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+NOTIC: [8] Undefined index: platesID D:\AppServ\www\BBS\Application\Admin\Controller\ModeratorController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2016-05-12T16:24:36+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modTitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2016-05-12T16:24:37+08:00 ] ::1 /BBS/index.php/Admin/Moderator/assTitle/themeID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+ERR: 非法操作:assTitle
+
+[ 2016-05-12T16:24:49+08:00 ] ::1 /BBS/index.php/Admin/Moderator/assTitle/themeID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001689s ]
+ERR: 非法操作:assTitle
+
+[ 2016-05-12T16:24:50+08:00 ] ::1 /BBS/index.php/Admin/Moderator/assTitle/themeID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+ERR: 非法操作:assTitle
+
+[ 2016-05-12T16:24:52+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modTitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2016-05-12T16:24:53+08:00 ] ::1 /BBS/index.php/Admin/Moderator/addTitle/themeID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined variable: themeID D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\b406f33ddbffb914633f80685abdc6de.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000802s ]
+
+[ 2016-05-12T16:24:56+08:00 ] ::1 /BBS/index.php/Admin/Moderator/addTitles
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001164s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2016-05-12T16:24:58+08:00 ] ::1 /BBS/index.php/Admin/Moderator/addTitles
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001238s ]
+
+[ 2016-05-12T16:26:36+08:00 ] ::1 /BBS/index.php/Admin/Moderator/addTitle/themeID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: themeID D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\b406f33ddbffb914633f80685abdc6de.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2016-05-12T16:26:37+08:00 ] ::1 /BBS/index.php/Admin/Moderator/addTitle/themeID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined variable: themeID D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\b406f33ddbffb914633f80685abdc6de.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2016-05-12T16:26:46+08:00 ] ::1 /BBS/index.php/Admin/Moderator/addTitles
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: INSERT INTO `bbs_theme` (`theme_title`,`theme_detail`,`plates_id`,`theme_time`) VALUES ('明天','更美好','2','2016-05-12 16:05:46') [ RunTime:0.0246s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-05-12T16:26:47+08:00 ] ::1 /BBS/index.php/Admin/Moderator/addTitle/themeID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined variable: themeID D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\b406f33ddbffb914633f80685abdc6de.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2016-05-12T16:27:01+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modTitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2016-05-12T16:30:15+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modTitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2016-05-12T16:30:19+08:00 ] ::1 /BBS/index.php/Admin/Moderator/deleteTitle/themeID/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: DELETE FROM `bbs_theme` WHERE `theme_id` = 15 [ RunTime:0.0971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2016-05-12T16:30:24+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modTitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2016-05-12T16:31:46+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modTitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2016-05-12T16:33:29+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modTitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001698s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2016-05-12T16:33:35+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPost/themeID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+ERR: 1054:Unknown column 'plates_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `bbs_post` WHERE ( plates_id=2 ) 
+ERR: 1054:Unknown column 'plates_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `bbs_post` WHERE ( plates_id=2 ) 
+
+[ 2016-05-12T16:36:02+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPost/themeID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+SQL: SELECT * FROM `bbs_post` WHERE ( theme_id=4 )  [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001359s ]
+
+[ 2016-05-12T16:37:18+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modTitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001228s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+NOTIC: [8] Use of undefined constant 查看主题帖子 - assumed '查看主题帖子' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\e4628cf8d45056824879e2f3c6f10c16.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2016-05-12T16:37:19+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPost/themeID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+SQL: SELECT * FROM `bbs_post` WHERE ( theme_id=4 )  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\3d666d69c52f11caff3add68076f19d5.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\3d666d69c52f11caff3add68076f19d5.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\3d666d69c52f11caff3add68076f19d5.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2016-05-12T16:37:22+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPost/themeID/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+SQL: SELECT * FROM `bbs_post` WHERE ( theme_id=5 )  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\3d666d69c52f11caff3add68076f19d5.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\3d666d69c52f11caff3add68076f19d5.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\3d666d69c52f11caff3add68076f19d5.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2016-05-12T16:37:27+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPost/themeID/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+SQL: SELECT * FROM `bbs_post` WHERE ( theme_id=7 )  [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2016-05-12T16:37:29+08:00 ] ::1 /BBS/index.php/Admin/Moderator/modPost/themeID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' D:\AppServ\www\BBS\Application\Admin\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+SQL: SELECT * FROM `bbs_post` WHERE ( theme_id=4 )  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant 修改 - assumed '修改' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\3d666d69c52f11caff3add68076f19d5.php 第 9 行.
+NOTIC: [8] Use of undefined constant 删除 - assumed '删除' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\3d666d69c52f11caff3add68076f19d5.php 第 9 行.
+NOTIC: [8] Use of undefined constant 添加 - assumed '添加' D:\AppServ\www\BBS\Application\Runtime\Cache\Admin\3d666d69c52f11caff3add68076f19d5.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+

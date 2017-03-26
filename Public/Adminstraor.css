@@ -1,0 +1,134 @@
+
+body {
+	margin: 0;
+	padding: 0;
+    font-family: "微软雅黑";
+}
+
+a {
+	text-decoration: none;
+	color: #286A46;
+}
+
+
+.search-wrap {
+    height: 35px;
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.search-content {
+    margin-left: 50px;
+}
+
+.search-tab td {
+    padding-left: 10px;
+}
+
+.search-btn {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    border: 0;
+    border-radius: 5px;
+    background: #286A3E;
+    color: white;
+}
+
+
+.result-wrap {
+    height: auto;
+    min-height: 488px;
+    border-bottom: 1px solid #ddd;
+}
+
+.result-content-title {
+    height: 25px;
+    line-height: 25px;
+    padding: 5px 0;
+    background: #ddd;
+}
+
+.rct-user {
+    float: left;
+    width: 400px;
+    padding-left: 30px;
+    border-right: 1px solid #000;
+}
+
+.rct-operate {
+    float: left;
+    width: 250px;
+    padding-left: 250px;
+}
+
+
+.rc-userList {
+    height: auto;
+    min-height: 360px; 
+}
+
+.rc-userList li {
+    list-style: none;
+    height: 35px;
+    line-height: 35px;
+    margin-left: -39px;
+    border-bottom: 1px solid #ddd;
+}
+
+.rc-userList ul>li:first-child {
+    border-top: 1px solid #ddd;
+} 
+
+.rcul-name {
+    float: left;
+    width: 400px;
+    display: block;
+    padding-left: 29px;
+    border-right: 1px solid #ddd;
+}
+
+.rcul-operate {
+    float: left;
+    width: 500px;
+    display: block;
+    padding-left: 50px;
+}
+
+.rcul-operate a {
+    padding-left: 100px;
+}
+
+
+
+
+
+.rc-userInfo-name {
+    height: 35px;
+    line-height: 35px;
+    padding-left: 40px;
+}
+
+.rc-userInfo-name span {
+    padding-right: 100px;
+}
+
+.rc-userInfo-postList h3 {
+    padding: 20px 0 0 55px
+}
+
+.rc-userInfo-postList li {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    list-style: none;
+    margin-left: -20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.rc-userInfo-postList ul>li:first-child {
+    border-top: 1px solid #ddd;
+} 

@@ -1,0 +1,2400 @@
+[ 2016-05-23T10:29:38+08:00 ] ::1 /bbs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005622s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005464s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000879s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000943s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 123 行.
+SQL: SELECT * FROM `bbs_theme` ORDER BY theme_time desc LIMIT 10   [ RunTime:0.0173s ]
+SQL: SELECT * FROM `bbs_post` LIMIT 10   [ RunTime:0.0068s ]
+SQL: SELECT `comment_detail`,`post_id` FROM `bbs_comment` ORDER BY comment_time desc LIMIT 10   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `bbs_annou`  [ RunTime:0.0072s ]
+SQL: SELECT a.plates_id,plates_title,moderator_name from bbs_moderator a ,bbs_plates b where a.plates_id = b.plates_id order by a.plates_id [ RunTime:0.0147s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=2 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0071s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=3 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=14 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=2 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=3 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=14 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=5 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=7 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=16 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=6 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=8 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=10 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=12 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=13 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=4 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=1 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=9 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=11 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.202940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.202989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006043s ]
+
+[ 2016-05-23T12:19:10+08:00 ] ::1 /bbs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005459s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005994s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000969s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001031s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 123 行.
+SQL: SELECT * FROM `bbs_theme` ORDER BY theme_time desc LIMIT 10   [ RunTime:0.0191s ]
+SQL: SELECT * FROM `bbs_post` LIMIT 10   [ RunTime:0.0065s ]
+SQL: SELECT `comment_detail`,`post_id` FROM `bbs_comment` ORDER BY comment_time desc LIMIT 10   [ RunTime:0.0062s ]
+SQL: SELECT * FROM `bbs_annou`  [ RunTime:0.0060s ]
+SQL: SELECT a.plates_id,plates_title,moderator_name from bbs_moderator a ,bbs_plates b where a.plates_id = b.plates_id order by a.plates_id [ RunTime:0.0157s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=2 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0070s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=3 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0005s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=14 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=2 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=3 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=14 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=5 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=7 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=16 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=6 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=8 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=10 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=12 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=13 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=4 )  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=1 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0005s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=9 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=11 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.218795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.218850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006340s ]
+
+[ 2016-05-23T12:21:34+08:00 ] ::1 /BBS/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0019s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0021s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2016-05-23T12:21:44+08:00 ] ::1 /BBS/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0019s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2016-05-23T12:32:48+08:00 ] ::1 /bbs/index.php/Home/Content/content/themeID/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+NOTIC: [8] Undefined index: platesID C:\AppServ\www\BBS\Application\Home\Controller\ContentController.class.php 第 7 行.
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\ContentController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined variable: sessiofo C:\AppServ\www\BBS\Application\Runtime\Cache\Home\88897fb274883615746164bb6d7c15d3.php 第 61 行.
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\88897fb274883615746164bb6d7c15d3.php 第 121 行.
+SQL: SELECT * FROM `bbs_plates`  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=4 )  [ RunTime:0.0004s ]
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.theme_id=2 [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001015s ]
+
+[ 2016-05-23T12:32:49+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0018s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0014s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2016-05-23T12:49:18+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+
+[ 2016-05-23T12:49:32+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+
+[ 2016-05-23T12:49:32+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+
+[ 2016-05-23T12:49:33+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+
+[ 2016-05-23T12:49:33+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+
+[ 2016-05-23T12:49:36+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+
+[ 2016-05-23T12:50:05+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0013s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001566s ]
+
+[ 2016-05-23T12:53:10+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0027s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0016s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2016-05-23T12:53:10+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0019s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2016-05-23T12:53:11+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0020s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0014s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2016-05-23T12:53:50+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0020s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001239s ]
+
+[ 2016-05-23T12:53:50+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0004s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2016-05-23T12:53:51+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0015s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2016-05-23T12:53:51+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0020s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0017s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2016-05-23T12:56:45+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0013s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2016-05-23T12:58:31+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2016-05-23T12:58:32+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2016-05-23T12:58:33+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2016-05-23T12:59:17+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2016-05-23T12:59:18+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0014s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2016-05-23T12:59:18+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0006s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2016-05-23T12:59:18+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0013s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-05-23T12:59:18+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2016-05-23T12:59:18+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2016-05-23T12:59:19+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2016-05-23T13:01:41+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0006s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001255s ]
+
+[ 2016-05-23T13:01:42+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2016-05-23T13:02:01+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2016-05-23T13:02:02+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2016-05-23T13:03:34+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+
+[ 2016-05-23T13:03:58+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2016-05-23T13:04:35+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0006s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2016-05-23T13:06:44+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0006s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001146s ]
+
+[ 2016-05-23T13:06:57+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0006s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001294s ]
+
+[ 2016-05-23T13:08:23+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001018s ]
+
+[ 2016-05-23T13:09:36+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2016-05-23T13:09:38+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0006s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001309s ]
+
+[ 2016-05-23T13:09:38+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2016-05-23T13:09:39+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2016-05-23T13:10:13+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0004s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2016-05-23T13:10:17+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2016-05-23T13:10:26+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001226s ]
+
+[ 2016-05-23T13:11:01+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2016-05-23T13:11:45+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2016-05-23T13:11:45+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2016-05-23T13:12:47+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2016-05-23T13:12:49+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0006s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2016-05-23T13:13:04+08:00 ] ::1 /bbs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 123 行.
+SQL: SELECT * FROM `bbs_theme` ORDER BY theme_time desc LIMIT 10   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bbs_post` LIMIT 10   [ RunTime:0.0005s ]
+SQL: SELECT `comment_detail`,`post_id` FROM `bbs_comment` ORDER BY comment_time desc LIMIT 10   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_annou`  [ RunTime:0.0011s ]
+SQL: SELECT a.plates_id,plates_title,moderator_name from bbs_moderator a ,bbs_plates b where a.plates_id = b.plates_id order by a.plates_id [ RunTime:0.0025s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=2 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0005s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=3 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=14 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=2 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=3 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=14 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=5 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=7 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0006s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=16 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=6 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=8 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=10 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=12 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=13 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=4 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=1 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=9 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=11 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001112s ]
+
+[ 2016-05-23T13:13:11+08:00 ] ::1 /bbs/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SELECT * FROM `bbs_user` WHERE `user_id` LIKE '%a%' OR `user_name` LIKE '%a%'  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: postid C:\AppServ\www\BBS\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 7 行.
+NOTIC: [8] Undefined variable: postid C:\AppServ\www\BBS\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2016-05-23T13:15:07+08:00 ] ::1 /bbs/index.php/Home/Content/content/platesID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+NOTIC: [8] Undefined index: themeID C:\AppServ\www\BBS\Application\Home\Controller\ContentController.class.php 第 8 行.
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\ContentController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined variable: sessiofo C:\AppServ\www\BBS\Application\Runtime\Cache\Home\88897fb274883615746164bb6d7c15d3.php 第 61 行.
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\88897fb274883615746164bb6d7c15d3.php 第 121 行.
+SQL: SELECT * FROM `bbs_plates`  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=4 )  [ RunTime:0.0004s ]
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.theme_id=0 [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2016-05-23T13:15:26+08:00 ] ::1 /bbs/index.php/Home/Content/content/themeID/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+NOTIC: [8] Undefined index: platesID C:\AppServ\www\BBS\Application\Home\Controller\ContentController.class.php 第 7 行.
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\ContentController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+NOTIC: [8] Undefined variable: sessiofo C:\AppServ\www\BBS\Application\Runtime\Cache\Home\88897fb274883615746164bb6d7c15d3.php 第 61 行.
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\88897fb274883615746164bb6d7c15d3.php 第 121 行.
+SQL: SELECT * FROM `bbs_plates`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=4 )  [ RunTime:0.0004s ]
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.theme_id=2 [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2016-05-23T13:15:27+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2016-05-23T13:15:28+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2016-05-23T13:15:32+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2016-05-23T13:16:00+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2016-05-23T13:16:44+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2016-05-23T13:16:59+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2016-05-23T13:17:04+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2016-05-23T13:17:47+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002077s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2016-05-23T13:25:32+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index' at line 1
+ [ SQL语句 ] : select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index' at line 1
+ [ SQL语句 ] : select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = index
+
+[ 2016-05-23T13:25:38+08:00 ] ::1 /bbs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 123 行.
+SQL: SELECT * FROM `bbs_theme` ORDER BY theme_time desc LIMIT 10   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bbs_post` LIMIT 10   [ RunTime:0.0004s ]
+SQL: SELECT `comment_detail`,`post_id` FROM `bbs_comment` ORDER BY comment_time desc LIMIT 10   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_annou`  [ RunTime:0.0011s ]
+SQL: SELECT a.plates_id,plates_title,moderator_name from bbs_moderator a ,bbs_plates b where a.plates_id = b.plates_id order by a.plates_id [ RunTime:0.0014s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=2 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=3 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=14 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=2 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=3 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=14 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=5 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=7 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=16 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=6 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=8 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=10 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=12 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=13 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=4 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=1 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=9 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=11 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2016-05-23T13:29:05+08:00 ] ::1 /bbs/index.php/Home/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2016-05-23T13:29:08+08:00 ] ::1 /bbs/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2016-05-23T13:29:13+08:00 ] ::1 /bbs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 123 行.
+SQL: SELECT * FROM `bbs_theme` ORDER BY theme_time desc LIMIT 10   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bbs_post` LIMIT 10   [ RunTime:0.0005s ]
+SQL: SELECT `comment_detail`,`post_id` FROM `bbs_comment` ORDER BY comment_time desc LIMIT 10   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_annou`  [ RunTime:0.0011s ]
+SQL: SELECT a.plates_id,plates_title,moderator_name from bbs_moderator a ,bbs_plates b where a.plates_id = b.plates_id order by a.plates_id [ RunTime:0.0013s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=2 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0005s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=3 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=14 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=2 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=3 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=14 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=5 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=7 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=16 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=6 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=8 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=10 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=12 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=13 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=4 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=1 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=9 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=11 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-23T13:29:16+08:00 ] ::1 /bbs/index.php/Home/Content/content/themeID/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001368s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+NOTIC: [8] Undefined index: platesID C:\AppServ\www\BBS\Application\Home\Controller\ContentController.class.php 第 7 行.
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\ContentController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined variable: sessiofo C:\AppServ\www\BBS\Application\Runtime\Cache\Home\88897fb274883615746164bb6d7c15d3.php 第 61 行.
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\88897fb274883615746164bb6d7c15d3.php 第 121 行.
+SQL: SELECT * FROM `bbs_plates`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=4 )  [ RunTime:0.0003s ]
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.theme_id=2 [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2016-05-23T13:29:17+08:00 ] ::1 /bbs/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Home\Controller\CommentController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2ac82684ff79d7d08788b13e17a3c7e1.php 第 124 行.
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2016-05-23T13:29:47+08:00 ] ::1 /bbs/Home/Login/userLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SELECT `user_id`,`user_password`,`user_flag` FROM `bbs_user` WHERE ( user_name = 'admin' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+SQL: SELECT * FROM `bbs_theme` ORDER BY theme_time desc LIMIT 10   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `bbs_post` LIMIT 10   [ RunTime:0.0006s ]
+SQL: SELECT `comment_detail`,`post_id` FROM `bbs_comment` ORDER BY comment_time desc LIMIT 10   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bbs_annou`  [ RunTime:0.0011s ]
+SQL: SELECT a.plates_id,plates_title,moderator_name from bbs_moderator a ,bbs_plates b where a.plates_id = b.plates_id order by a.plates_id [ RunTime:0.0014s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=2 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=3 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=14 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=2 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=3 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=14 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=5 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=7 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=16 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=6 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=8 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=10 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0006s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=12 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0005s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=13 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=4 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=1 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0005s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=9 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=11 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2016-05-23T13:29:49+08:00 ] ::1 /BBS/index.php/Home/Userindex/personalSpace.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2016-05-23T13:29:51+08:00 ] ::1 /BBS/index.php/Home/Userindex/personalInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2016-05-23T13:29:54+08:00 ] ::1 /BBS/index.php/Home/Userindex/personalPost.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+SQL: select * from bbs_user a ,bbs_post b where a.user_id = b.user_id and a.user_name = 'admin' [ RunTime:0.0005s ]
+SQL: select * from bbs_theme a ,bbs_plates b where a.plates_id = b.plates_id and a.theme_id in (SELECT theme_id from bbs_post  where post_id =5) [ RunTime:0.0004s ]
+SQL: SELECT count(post_id) as a ,comment_time  from bbs_comment where post_id = 5 [ RunTime:0.0017s ]
+SQL: select * from bbs_theme a ,bbs_plates b where a.plates_id = b.plates_id and a.theme_id in (SELECT theme_id from bbs_post  where post_id =6) [ RunTime:0.0004s ]
+SQL: SELECT count(post_id) as a ,comment_time  from bbs_comment where post_id = 6 [ RunTime:0.0003s ]
+SQL: select * from bbs_theme a ,bbs_plates b where a.plates_id = b.plates_id and a.theme_id in (SELECT theme_id from bbs_post  where post_id =7) [ RunTime:0.0003s ]
+SQL: SELECT count(post_id) as a ,comment_time  from bbs_comment where post_id = 7 [ RunTime:0.0003s ]
+SQL: select * from bbs_theme a ,bbs_plates b where a.plates_id = b.plates_id and a.theme_id in (SELECT theme_id from bbs_post  where post_id =9) [ RunTime:0.0003s ]
+SQL: SELECT count(post_id) as a ,comment_time  from bbs_comment where post_id = 9 [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2016-05-23T13:29:55+08:00 ] ::1 /BBS/index.php/Home/Userindex/personalCollect.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+SQL: SELECT post_title,b.post_id,b.collect_time from bbs_user a, bbs_collect b ,bbs_post c where a.user_id=b.user_id and b.post_id = c.post_id and a.user_name = 'admin' [ RunTime:0.0046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2016-05-23T13:29:55+08:00 ] ::1 /BBS/index.php/Home/Userindex/personalInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2016-05-23T13:31:30+08:00 ] ::1 /BBS/index.php/Home/Userindex/personalInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2016-05-23T13:34:46+08:00 ] ::1 /BBS/index.php/Home/Userindex/personalInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\ec95a2ee2a16ec38e7d56ece97df4aba.php 第 34 行.
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\ec95a2ee2a16ec38e7d56ece97df4aba.php 第 103 行.
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\ec95a2ee2a16ec38e7d56ece97df4aba.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2016-05-23T13:34:57+08:00 ] ::1 /BBS/index.php/Home/Userindex/personalCollect.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\c54a824c2bf7f44a62e4a92839a9853d.php 第 38 行.
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\c54a824c2bf7f44a62e4a92839a9853d.php 第 82 行.
+SQL: SELECT post_title,b.post_id,b.collect_time from bbs_user a, bbs_collect b ,bbs_post c where a.user_id=b.user_id and b.post_id = c.post_id and a.user_name = '' [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\c54a824c2bf7f44a62e4a92839a9853d.php 第 99 行.
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\c54a824c2bf7f44a62e4a92839a9853d.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2016-05-23T13:35:01+08:00 ] ::1 /BBS/index.php/Home/Login/out.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined variable: sessinfo C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 65 行.
+NOTIC: [8] Undefined index: user_name C:\AppServ\www\BBS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 123 行.
+SQL: SELECT * FROM `bbs_theme` ORDER BY theme_time desc LIMIT 10   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `bbs_post` LIMIT 10   [ RunTime:0.0005s ]
+SQL: SELECT `comment_detail`,`post_id` FROM `bbs_comment` ORDER BY comment_time desc LIMIT 10   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_annou`  [ RunTime:0.0012s ]
+SQL: SELECT a.plates_id,plates_title,moderator_name from bbs_moderator a ,bbs_plates b where a.plates_id = b.plates_id order by a.plates_id [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=2 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=3 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=14 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=2 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=3 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=14 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=5 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=7 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=16 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=6 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=8 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=10 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=12 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=13 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=4 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=1 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=9 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=11 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2016-05-23T13:35:10+08:00 ] ::1 /BBS/Home/Login/userLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SELECT `user_id`,`user_password`,`user_flag` FROM `bbs_user` WHERE ( user_name = 'admin' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+SQL: SELECT * FROM `bbs_theme` ORDER BY theme_time desc LIMIT 10   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bbs_post` LIMIT 10   [ RunTime:0.0006s ]
+SQL: SELECT `comment_detail`,`post_id` FROM `bbs_comment` ORDER BY comment_time desc LIMIT 10   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bbs_annou`  [ RunTime:0.0012s ]
+SQL: SELECT a.plates_id,plates_title,moderator_name from bbs_moderator a ,bbs_plates b where a.plates_id = b.plates_id order by a.plates_id [ RunTime:0.0015s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=2 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0006s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=3 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0007s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=14 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=2 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=3 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=14 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=5 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=7 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=16 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=6 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=8 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=10 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=12 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=13 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=4 )  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=1 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=9 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=11 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2016-05-23T13:35:12+08:00 ] ::1 /BBS/index.php/Home/Userindex/personalSpace.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000335s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000473s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2016-05-23T13:35:13+08:00 ] ::1 /BBS/index.php/Home/Userindex/personalInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2016-05-23T13:35:59+08:00 ] ::1 /BBS/index.php/Home/Userindex/personalPost.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+SQL: select * from bbs_user a ,bbs_post b where a.user_id = b.user_id and a.user_name = 'admin' [ RunTime:0.0005s ]
+SQL: select * from bbs_theme a ,bbs_plates b where a.plates_id = b.plates_id and a.theme_id in (SELECT theme_id from bbs_post  where post_id =5) [ RunTime:0.0004s ]
+SQL: SELECT count(post_id) as a ,comment_time  from bbs_comment where post_id = 5 [ RunTime:0.0003s ]
+SQL: select * from bbs_theme a ,bbs_plates b where a.plates_id = b.plates_id and a.theme_id in (SELECT theme_id from bbs_post  where post_id =6) [ RunTime:0.0004s ]
+SQL: SELECT count(post_id) as a ,comment_time  from bbs_comment where post_id = 6 [ RunTime:0.0003s ]
+SQL: select * from bbs_theme a ,bbs_plates b where a.plates_id = b.plates_id and a.theme_id in (SELECT theme_id from bbs_post  where post_id =7) [ RunTime:0.0003s ]
+SQL: SELECT count(post_id) as a ,comment_time  from bbs_comment where post_id = 7 [ RunTime:0.0002s ]
+SQL: select * from bbs_theme a ,bbs_plates b where a.plates_id = b.plates_id and a.theme_id in (SELECT theme_id from bbs_post  where post_id =9) [ RunTime:0.0003s ]
+SQL: SELECT count(post_id) as a ,comment_time  from bbs_comment where post_id = 9 [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2016-05-23T13:37:39+08:00 ] ::1 /BBS/index.php/Home/Userindex/userindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+SQL: SELECT * FROM `bbs_theme` ORDER BY theme_time desc LIMIT 10   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bbs_post` LIMIT 10   [ RunTime:0.0004s ]
+SQL: SELECT `comment_detail`,`post_id` FROM `bbs_comment` ORDER BY comment_time desc LIMIT 10   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_annou`  [ RunTime:0.0004s ]
+SQL: SELECT a.plates_id,plates_title,moderator_name from bbs_moderator a ,bbs_plates b where a.plates_id = b.plates_id order by a.plates_id [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=2 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0005s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=3 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=14 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=2 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=3 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=14 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=5 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=7 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=16 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=6 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=8 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=10 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=12 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=13 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bbs_theme` WHERE ( plates_id=4 )  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=1 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=9 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT post_title,post_time,user_name,theme_id,post_good,post_bad from bbs_post a,bbs_user b WHERE a.user_id=b.user_id and a.theme_id=11 ORDER BY post_time desc LIMIT 1  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2016-05-23T13:37:42+08:00 ] ::1 /BBS/index.php/Home/Userindex/personalSpace.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2016-05-23T13:38:04+08:00 ] ::1 /BBS/index.php/Home/Userindex/personalCollect.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+SQL: SELECT post_title,b.post_id,b.collect_time from bbs_user a, bbs_collect b ,bbs_post c where a.user_id=b.user_id and b.post_id = c.post_id and a.user_name = 'admin' [ RunTime:0.0012s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2016-05-23T13:38:12+08:00 ] ::1 /BBS/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0005s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2016-05-23T13:38:12+08:00 ] ::1 /BBS/index.php/Home/Comment/comment/postid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+NOTIC: [8] Use of undefined constant TURE - assumed 'TURE' C:\AppServ\www\BBS\Application\Home\Conf\config.php 第 18 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+SQL: select * from bbs_post a ,bbs_user b where a.user_id=b.user_id and a.post_id = 1 [ RunTime:0.0006s ]
+SQL: select * from bbs_comment a,bbs_user b where a.user_id = b.user_id and a.post_id = 1 ORDER BY comment_time desc [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+

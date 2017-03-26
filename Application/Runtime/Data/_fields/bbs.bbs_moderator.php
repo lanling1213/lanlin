@@ -1,0 +1,1 @@
+a:7:{i:0;s:12:"moderator_id";i:1;s:14:"moderator_name";i:2;s:18:"moderator_password";i:3;s:9:"plates_id";i:4;s:14:"moderator_flag";s:3:"_pk";s:12:"moderator_id";s:5:"_type";a:5:{s:12:"moderator_id";s:7:"int(11)";s:14:"moderator_name";s:12:"varchar(255)";s:18:"moderator_password";s:12:"varchar(255)";s:9:"plates_id";s:7:"int(11)";s:14:"moderator_flag";s:6:"int(1)";}}
